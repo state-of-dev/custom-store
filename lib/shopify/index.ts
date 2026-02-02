@@ -1,5 +1,3 @@
-import { unstable_cacheLife as cacheLife, unstable_cacheTag as cacheTag } from 'next/cache';
-import { TAGS } from '@/lib/constants';
 import {
   getCollections as getShopifyCollections,
   getProducts as getShopifyProducts,
@@ -137,14 +135,8 @@ function adaptShopifyProduct(shopifyProduct: ShopifyProduct): Product {
   };
 }
 
-// Cart adapting happens in server actions to avoid cyclic deps
-
 // Public API functions
 export async function getCollections(): Promise<Collection[]> {
-  'use cache';
-  cacheTag(TAGS.collections);
-  cacheLife('minutes');
-
   try {
     const shopifyCollections = await getShopifyCollections();
     return shopifyCollections.map(adaptShopifyCollection);
@@ -155,10 +147,6 @@ export async function getCollections(): Promise<Collection[]> {
 }
 
 export async function getCollection(handle: string): Promise<Collection | null> {
-  'use cache';
-  cacheTag(TAGS.collections);
-  cacheLife('minutes');
-
   try {
     const collections = await getShopifyCollections();
     const collection = collections.find(collection => collection.handle === handle);
@@ -170,10 +158,6 @@ export async function getCollection(handle: string): Promise<Collection | null> 
 }
 
 export async function getProduct(handle: string): Promise<Product | null> {
-  'use cache';
-  cacheTag(TAGS.products);
-  cacheLife('minutes');
-
   try {
     const shopifyProduct = await getShopifyProduct(handle);
     return shopifyProduct ? adaptShopifyProduct(shopifyProduct) : null;
@@ -189,10 +173,6 @@ export async function getProducts(params: {
   reverse?: boolean;
   query?: string;
 }): Promise<Product[]> {
-  'use cache';
-  cacheTag(TAGS.products);
-  cacheLife('minutes');
-
   try {
     const shopifyProducts = await getShopifyProducts(params);
     return shopifyProducts.map(adaptShopifyProduct);
@@ -209,10 +189,6 @@ export async function getCollectionProducts(params: {
   reverse?: boolean;
   query?: string;
 }): Promise<Product[]> {
-  'use cache';
-  cacheTag(TAGS.collectionProducts);
-  cacheLife('minutes');
-
   try {
     const shopifyProducts = await getShopifyCollectionProducts(params);
     return shopifyProducts.map(adaptShopifyProduct);
