@@ -1,8 +1,5 @@
 const nextConfig = {
   /* config options here */
-  experimental: {
-    inlineCss: true,
-  },
   eslint: {
     ignoreDuringBuilds: true,
   },
