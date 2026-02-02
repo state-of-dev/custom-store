@@ -68,14 +68,18 @@
   --top-spacing: 5rem;
   --height-fold: 100vh;
   --height-fold: 100svh;
+}
 
-  @screen md {
+@media (min-width: 768px) {
+  :root {
     --sides: 1.5rem;
     --modal-sides: 1rem;
     --top-spacing: 9rem;
   }
+}
 
-  @screen lg {
+@media (min-width: 1024px) {
+  :root {
     --modal-sides: 1.5rem;
   }
 }
