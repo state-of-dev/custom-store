@@ -1,7 +1,5 @@
 'use server';
 
-import { TAGS } from '@/lib/constants';
-import { revalidateTag } from 'next/cache';
 import { cookies } from 'next/headers';
 import {
   createCart as createShopifyCart,
@@ -109,7 +107,6 @@ export async function addItem(variantId: string | undefined): Promise<Cart | nul
     const cartId = await getOrCreateCartId();
     await addCartLines(cartId, [{ merchandiseId: variantId, quantity: 1 }]);
     const fresh = await getShopifyCart(cartId);
-    revalidateTag(TAGS.cart);
     return adaptCart(fresh);
   } catch (error) {
     console.error('Error adding item to cart:', error);
@@ -130,7 +127,6 @@ export async function updateItem({ lineId, quantity }: { lineId: string; quantit
     }
 
     const fresh = await getShopifyCart(cartId);
-    revalidateTag(TAGS.cart);
     return adaptCart(fresh);
   } catch (error) {
     console.error('Error updating item:', error);
