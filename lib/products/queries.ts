@@ -81,7 +81,7 @@ function adaptProduct(product: any): RawProduct {
     handle: product.handle,
     productType: product.productType,
     options: [
-      { id: 'size', name: 'Tamaño', values: [...new Set(variants.map((v: any) => v.title))] }
+      { id: 'size', name: 'Tamaño', values: Array.from(new Set(variants.map((v: any) => v.title))) as string[] }
     ],
     images: {
       edges: images.map((img: any) => ({
