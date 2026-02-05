@@ -187,7 +187,7 @@ export async function getProduct(handle: string): Promise<RawProduct | null> {
 }
 
 // Get collections
-export async function getCollections(first = 10): Promise<Collection[]> {
+export async function getCollections(first = 10): Promise<RawCollection[]> {
   const collections = await prisma.collection.findMany({
     take: first,
   })
