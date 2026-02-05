@@ -133,7 +133,7 @@ export async function getProducts({
   sortKey?: ProductSortKey
   reverse?: boolean
   query?: string
-} = {}): Promise<Product[]> {
+} = {}): Promise<RawProduct[]> {
   const where: any = { status: 'active' }
 
   // Filter by search query
@@ -171,7 +171,7 @@ export async function getProducts({
 }
 
 // Get single product by handle
-export async function getProduct(handle: string): Promise<Product | null> {
+export async function getProduct(handle: string): Promise<RawProduct | null> {
   const product = await prisma.product.findUnique({
     where: { handle },
     include: {
@@ -213,7 +213,7 @@ export async function getCollectionProducts({
   sortKey?: ProductCollectionSortKey
   query?: string
   reverse?: boolean
-}): Promise<Product[]> {
+}): Promise<RawProduct[]> {
   const where: any = { status: 'active' }
 
   // Filtrar por tipo de producto basado en la colección
