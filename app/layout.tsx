@@ -5,6 +5,7 @@ import "./globals.css"
 import { Toaster } from "sonner"
 import { NuqsAdapter } from "nuqs/adapters/next/app"
 import { CartProvider } from "@/components/cart/cart-context"
+import { SessionProvider } from "@/components/providers/session-provider"
 import { DebugGrid } from "@/components/debug-grid"
 import { isDevelopment } from "@/lib/constants"
 import { getCollections } from "@/lib/shopify"
@@ -59,16 +60,18 @@ export default async function RootLayout({
         suppressHydrationWarning
       >
         <V0Provider isV0={isV0}>
-          <CartProvider>
-            <NuqsAdapter>
-              <main data-vaul-drawer-wrapper="true">
-                <Header collections={collections} />
-                {children}
-              </main>
-              {isDevelopment && <DebugGrid />}
-              <Toaster closeButton position="bottom-right" />
-            </NuqsAdapter>
-          </CartProvider>
+          <SessionProvider>
+            <CartProvider>
+              <NuqsAdapter>
+                <main data-vaul-drawer-wrapper="true">
+                  <Header collections={collections} />
+                  {children}
+                </main>
+                {isDevelopment && <DebugGrid />}
+                <Toaster closeButton position="bottom-right" />
+              </NuqsAdapter>
+            </CartProvider>
+          </SessionProvider>
           {isV0 && <V0Setup />}
         </V0Provider>
       </body>

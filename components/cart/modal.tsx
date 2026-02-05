@@ -65,7 +65,7 @@ const CartItems = ({ closeCart }: { closeCart: () => void }) => {
             </p>
           </div>
         </div>
-        <CheckoutButton />
+        <CheckoutButton closeCart={closeCart} />
       </CartContainer>
     </div>
   )
@@ -195,15 +195,25 @@ export default function CartModal() {
   )
 }
 
-function CheckoutButton() {
+function CheckoutButton({ closeCart }: { closeCart: () => void }) {
   const { pending } = useFormStatus()
   const { cart, isPending } = useCart()
   const router = useRouter()
 
-  const checkoutUrl = cart?.checkoutUrl
+  const hasItems = cart && cart.lines.length > 0
 
   const isLoading = pending
-  const isDisabled = !checkoutUrl || isPending
+  const isDisabled = !hasItems || isPending
+
+  const handleCheckout = () => {
+    if (hasItems) {
+      closeCart()
+      // Esperar a que termine la animación de cierre (300ms según la config del modal)
+      setTimeout(() => {
+        router.push('/checkout')
+      }, 300)
+    }
+  }
 
   return (
     <Button
@@ -211,11 +221,7 @@ function CheckoutButton() {
       disabled={isDisabled}
       size="lg"
       className="flex relative gap-3 justify-between items-center w-full"
-      onClick={() => {
-        if (checkoutUrl) {
-          router.push(checkoutUrl)
-        }
-      }}
+      onClick={handleCheckout}
     >
       <AnimatePresence initial={false} mode="wait">
         <motion.div

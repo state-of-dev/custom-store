@@ -7,7 +7,7 @@ import {
   addCartLines,
   updateCartLines,
   removeCartLines,
-} from './shopify';
+} from './shopify-db';
 import { thumbhashToDataURL } from './utils';
 import type {
   ShopifyProduct,

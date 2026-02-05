@@ -6,6 +6,7 @@ import { usePathname } from "next/navigation"
 import { cn } from "@/lib/utils"
 import { LogoSvg } from "./logo-svg"
 import CartModal from "@/components/cart/modal"
+import { UserAvatar } from "@/components/auth/user-avatar"
 import type { NavItem } from "@/lib/types"
 import type { Collection } from "@/lib/shopify/types"
 
@@ -57,6 +58,7 @@ export function Header({ collections }: HeaderProps) {
           ))}
         </ul>
         <CartModal />
+        <UserAvatar />
       </nav>
     </header>
   )

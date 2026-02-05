@@ -2,7 +2,11 @@
   "permissions": {
     "allow": [
       "Bash(pnpm add:*)",
-      "Bash(pnpm install:*)"
+      "Bash(pnpm install:*)",
+      "Bash(npx prisma db push:*)",
+      "Bash(npx prisma generate:*)",
+      "Bash(timeout:*)"
     ]
-  }
+  },
+  "prefersReducedMotion": true
 }
