@@ -30,8 +30,12 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Custom Perfumes",
-  description: "Custom Perfumes - Fragancias exclusivas y personalizadas para cada ocasión.",
-  generator: 'a'
+  description: "Custom Perfumes - Fragancias Noir.",
+  openGraph: {
+    title: "Custom Perfumes",
+    description: "Custom Perfumes - Fragancias Noir.",
+    images: ["/ACME©.svg"],
+  },
 }
 
 /**
