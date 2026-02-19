@@ -31,7 +31,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Custom Perfumes",
   description: "Custom Perfumes - Fragancias exclusivas y personalizadas para cada ocasión.",
-  generator: 'v0.app'
+  generator: 'a'
 }
 
 /**
