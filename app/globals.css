@@ -85,9 +85,11 @@
 }
 
 html,
-body,
-* {
+body {
   overscroll-behavior: none;
+}
+
+html {
   scroll-behavior: smooth;
 }
 

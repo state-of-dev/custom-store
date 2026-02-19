@@ -90,6 +90,7 @@ function adaptShopifyCollection(shopifyCollection: ShopifyCollection): Collectio
 
 function adaptShopifyProduct(shopifyProduct: ShopifyProduct): Product {
   const firstImage = shopifyProduct.images?.edges?.[0]?.node;
+  console.log('[adaptShopifyProduct]', shopifyProduct.title, '| firstImage url:', firstImage?.url, '| images count:', shopifyProduct.images?.edges?.length);
   const description = getFirstSentence(shopifyProduct.description || '');
 
   return {

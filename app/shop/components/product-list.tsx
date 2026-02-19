@@ -37,6 +37,9 @@ export default async function ProductList({ collection, searchParams }: ProductL
     products = [];
   }
 
+  console.log('[ProductList] products count:', products.length);
+  console.log('[ProductList] first product:', products[0]?.title, '| images:', JSON.stringify(products[0]?.images?.map((i: any) => i.url)));
+
   const collections = await getCollections();
 
   return <ProductListContent products={products} collections={collections} />;

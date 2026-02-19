@@ -5,7 +5,8 @@
       "Bash(pnpm install:*)",
       "Bash(npx prisma db push:*)",
       "Bash(npx prisma generate:*)",
-      "Bash(timeout:*)"
+      "Bash(timeout:*)",
+      "Bash(node -e:*)"
     ]
   },
   "prefersReducedMotion": true

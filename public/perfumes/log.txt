@@ -1,0 +1,1479 @@
+index.ts:93  Server  [adaptShopifyProduct] Encens Noir | firstImage url: /perfumes/pavlo-talpa-SIKp2vihB_s-unsplash.jpg | images count: 2
+index.ts:93  Server  [adaptShopifyProduct] Iris / Polvo | firstImage url: /perfumes/sonia-dauer-eTMMCz6JI6s-unsplash.jpg | images count: 2
+index.ts:93  Server  [adaptShopifyProduct] Mirra Negra | firstImage url: /perfumes/beautinow-niche-perfume-Oi9vbSj6mCU-unsplash.jpg | images count: 1
+index.ts:93  Server  [adaptShopifyProduct] Gaiac Ahumado | firstImage url: /perfumes/chenbushi-Dxgp0wVQbLU-unsplash.jpg | images count: 2
+index.ts:93  Server  [adaptShopifyProduct] Tonka / Incienso | firstImage url: /perfumes/pavlo-talpa-SIKp2vihB_s-unsplash.jpg | images count: 1
+index.ts:93  Server  [adaptShopifyProduct] Oud Kamini | firstImage url: /perfumes/tron-le-UMTh7DFMx6s-unsplash.jpg | images count: 2
+index.ts:93  Server  [adaptShopifyProduct] Pachulí Crudo | firstImage url: /perfumes/jay-soundo-aWEnLrHGu0M-unsplash.jpg | images count: 2
+index.ts:93  Server  [adaptShopifyProduct] Labdanum / Cistus | firstImage url: /perfumes/cosmin-ursea-WzP_9jJ16gQ-unsplash.jpg | images count: 1
+index.ts:93  Server  [adaptShopifyProduct] Tabaco Negro | firstImage url: /perfumes/beautinow-niche-perfume-CAqsBQ9kXko-unsplash.jpg | images count: 2
+index.ts:93  Server  [adaptShopifyProduct] Azafrán Oscuro | firstImage url: /perfumes/chenbushi-Dxgp0wVQbLU-unsplash.jpg | images count: 2
+index.ts:93  Server  [adaptShopifyProduct] Vetiver / Tierra | firstImage url: /perfumes/mahbod-akhzami-ao17WB4tCTQ-unsplash.jpg | images count: 2
+index.ts:93  Server  [adaptShopifyProduct] Cuero Crudo | firstImage url: /perfumes/jay-soundo-r59locia7KA-unsplash.jpg | images count: 2
+product-list.tsx:40  Server  [ProductList] products count: 12
+product-list.tsx:41  Server  [ProductList] first product: Encens Noir | images: ["/perfumes/pavlo-talpa-SIKp2vihB_s-unsplash.jpg","/perfumes/beautinow-niche-perfume-Oi9vbSj6mCU-unsplash.jpg"]
+forward-logs-shared.ts:95 [HMR] connected
+product-image.tsx:13 Image with src "/perfumes/pavlo-talpa-SIKp2vihB_s-unsplash.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+warn @ forward-logs-shared.ts:95
+warnOnce @ warn-once.ts:6
+getImgProps @ get-img-props.ts:564
+(anónimas) @ image-component.tsx:402
+react_stack_bottom_frame @ react-dom-client.development.js:28038
+renderWithHooks @ react-dom-client.development.js:7984
+updateForwardRef @ react-dom-client.development.js:10059
+beginWork @ react-dom-client.development.js:12475
+runWithFiberInDEV @ react-dom-client.development.js:986
+performUnitOfWork @ react-dom-client.development.js:18997
+workLoopSync @ react-dom-client.development.js:18825
+renderRootSync @ react-dom-client.development.js:18806
+performWorkOnRoot @ react-dom-client.development.js:17914
+performWorkOnRootViaSchedulerTask @ react-dom-client.development.js:20384
+performWorkUntilDeadline @ scheduler.development.js:45
+<ForwardRef>
+exports.jsxDEV @ react-jsx-dev-runtime.development.js:342
+ProductImage @ product-image.tsx:13
+react_stack_bottom_frame @ react-dom-client.development.js:28038
+renderWithHooksAgain @ react-dom-client.development.js:8084
+renderWithHooks @ react-dom-client.development.js:7996
+updateFunctionComponent @ react-dom-client.development.js:10501
+beginWork @ react-dom-client.development.js:12136
+runWithFiberInDEV @ react-dom-client.development.js:986
+performUnitOfWork @ react-dom-client.development.js:18997
+workLoopSync @ react-dom-client.development.js:18825
+renderRootSync @ react-dom-client.development.js:18806
+performWorkOnRoot @ react-dom-client.development.js:17914
+performWorkOnRootViaSchedulerTask @ react-dom-client.development.js:20384
+performWorkUntilDeadline @ scheduler.development.js:45
+<ProductImage>
+exports.jsxDEV @ react-jsx-dev-runtime.development.js:342
+ProductCard @ index.tsx:27
+react_stack_bottom_frame @ react-dom-client.development.js:28038
+renderWithHooksAgain @ react-dom-client.development.js:8084
+renderWithHooks @ react-dom-client.development.js:7996
+updateFunctionComponent @ react-dom-client.development.js:10501
+beginWork @ react-dom-client.development.js:12136
+runWithFiberInDEV @ react-dom-client.development.js:986
+performUnitOfWork @ react-dom-client.development.js:18997
+workLoopSync @ react-dom-client.development.js:18825
+renderRootSync @ react-dom-client.development.js:18806
+performWorkOnRoot @ react-dom-client.development.js:17914
+performWorkOnRootViaSchedulerTask @ react-dom-client.development.js:20384
+performWorkUntilDeadline @ scheduler.development.js:45
+<ProductCard>
+exports.jsxDEV @ react-jsx-dev-runtime.development.js:342
+(anónimas) @ product-list-content.tsx:118
+ProductListContent @ product-list-content.tsx:117
+react_stack_bottom_frame @ react-dom-client.development.js:28038
+renderWithHooksAgain @ react-dom-client.development.js:8084
+renderWithHooks @ react-dom-client.development.js:7996
+updateFunctionComponent @ react-dom-client.development.js:10501
+beginWork @ react-dom-client.development.js:12085
+runWithFiberInDEV @ react-dom-client.development.js:986
+performUnitOfWork @ react-dom-client.development.js:18997
+workLoopSync @ react-dom-client.development.js:18825
+renderRootSync @ react-dom-client.development.js:18806
+performWorkOnRoot @ react-dom-client.development.js:17914
+performWorkOnRootViaSchedulerTask @ react-dom-client.development.js:20384
+performWorkUntilDeadline @ scheduler.development.js:45
+"use client"
+ProductList @ product-list.tsx:45
+initializeElement @ react-server-dom-turbopack-client.browser.development.js:1941
+(anónimas) @ react-server-dom-turbopack-client.browser.development.js:4623
+initializeModelChunk @ react-server-dom-turbopack-client.browser.development.js:1828
+readChunk @ react-server-dom-turbopack-client.browser.development.js:1450
+react_stack_bottom_frame @ react-dom-client.development.js:28145
+resolveLazy @ react-dom-client.development.js:6320
+reconcileChildFibersImpl @ react-dom-client.development.js:7291
+(anónimas) @ react-dom-client.development.js:7410
+reconcileChildren @ react-dom-client.development.js:10036
+updateOffscreenComponent @ react-dom-client.development.js:10244
+beginWork @ react-dom-client.development.js:12588
+runWithFiberInDEV @ react-dom-client.development.js:989
+performUnitOfWork @ react-dom-client.development.js:18997
+workLoopSync @ react-dom-client.development.js:18825
+renderRootSync @ react-dom-client.development.js:18806
+performWorkOnRoot @ react-dom-client.development.js:17914
+performWorkOnRootViaSchedulerTask @ react-dom-client.development.js:20384
+performWorkUntilDeadline @ scheduler.development.js:45
+<ProductList>
+Shop @ page.tsx:36
+initializeFakeTask @ react-server-dom-turbopack-client.browser.development.js:3392
+initializeDebugInfo @ react-server-dom-turbopack-client.browser.development.js:3415
+initializeDebugChunk @ react-server-dom-turbopack-client.browser.development.js:1772
+processFullStringRow @ react-server-dom-turbopack-client.browser.development.js:4389
+processFullBinaryRow @ react-server-dom-turbopack-client.browser.development.js:4300
+processBinaryChunk @ react-server-dom-turbopack-client.browser.development.js:4523
+progress @ react-server-dom-turbopack-client.browser.development.js:4799
+<Shop>
+Function.all @ VM4162 <anonymous>:1
+Function.all @ VM4162 <anonymous>:1
+initializeFakeTask @ react-server-dom-turbopack-client.browser.development.js:3390
+initializeDebugInfo @ react-server-dom-turbopack-client.browser.development.js:3415
+initializeDebugChunk @ react-server-dom-turbopack-client.browser.development.js:1772
+processFullStringRow @ react-server-dom-turbopack-client.browser.development.js:4389
+processFullBinaryRow @ react-server-dom-turbopack-client.browser.development.js:4300
+processBinaryChunk @ react-server-dom-turbopack-client.browser.development.js:4523
+progress @ react-server-dom-turbopack-client.browser.development.js:4799
+"use server"
+ResponseInstance @ react-server-dom-turbopack-client.browser.development.js:2784
+createResponseFromOptions @ react-server-dom-turbopack-client.browser.development.js:4660
+exports.createFromReadableStream @ react-server-dom-turbopack-client.browser.development.js:5064
+module evaluation @ app-index.tsx:211
+(anónimas) @ dev-base.ts:244
+runModuleExecutionHooks @ dev-base.ts:278
+instantiateModule @ dev-base.ts:238
+getOrInstantiateModuleFromParent @ dev-base.ts:162
+commonJsRequire @ runtime-utils.ts:389
+(anónimas) @ app-next-turbopack.ts:11
+(anónimas) @ app-bootstrap.ts:79
+loadScriptsInSequence @ app-bootstrap.ts:23
+appBootstrap @ app-bootstrap.ts:61
+module evaluation @ app-next-turbopack.ts:10
+(anónimas) @ dev-base.ts:244
+runModuleExecutionHooks @ dev-base.ts:278
+instantiateModule @ dev-base.ts:238
+getOrInstantiateRuntimeModule @ dev-base.ts:128
+registerChunk @ runtime-backend-dom.ts:57
+await in registerChunk
+registerChunk @ dev-base.ts:1149
+(anónimas) @ dev-backend-dom.ts:126
+(anónimas) @ dev-backend-dom.ts:126
+product-image.tsx:13 Image with src "/perfumes/sonia-dauer-eTMMCz6JI6s-unsplash.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+warn @ forward-logs-shared.ts:95
+warnOnce @ warn-once.ts:6
+getImgProps @ get-img-props.ts:564
+(anónimas) @ image-component.tsx:402
+react_stack_bottom_frame @ react-dom-client.development.js:28038
+renderWithHooks @ react-dom-client.development.js:7984
+updateForwardRef @ react-dom-client.development.js:10059
+beginWork @ react-dom-client.development.js:12475
+runWithFiberInDEV @ react-dom-client.development.js:986
+performUnitOfWork @ react-dom-client.development.js:18997
+workLoopSync @ react-dom-client.development.js:18825
+renderRootSync @ react-dom-client.development.js:18806
+performWorkOnRoot @ react-dom-client.development.js:17914
+performWorkOnRootViaSchedulerTask @ react-dom-client.development.js:20384
+performWorkUntilDeadline @ scheduler.development.js:45
+<ForwardRef>
+exports.jsxDEV @ react-jsx-dev-runtime.development.js:342
+ProductImage @ product-image.tsx:13
+react_stack_bottom_frame @ react-dom-client.development.js:28038
+renderWithHooksAgain @ react-dom-client.development.js:8084
+renderWithHooks @ react-dom-client.development.js:7996
+updateFunctionComponent @ react-dom-client.development.js:10501
+beginWork @ react-dom-client.development.js:12136
+runWithFiberInDEV @ react-dom-client.development.js:986
+performUnitOfWork @ react-dom-client.development.js:18997
+workLoopSync @ react-dom-client.development.js:18825
+renderRootSync @ react-dom-client.development.js:18806
+performWorkOnRoot @ react-dom-client.development.js:17914
+performWorkOnRootViaSchedulerTask @ react-dom-client.development.js:20384
+performWorkUntilDeadline @ scheduler.development.js:45
+<ProductImage>
+exports.jsxDEV @ react-jsx-dev-runtime.development.js:342
+ProductCard @ index.tsx:27
+react_stack_bottom_frame @ react-dom-client.development.js:28038
+renderWithHooksAgain @ react-dom-client.development.js:8084
+renderWithHooks @ react-dom-client.development.js:7996
+updateFunctionComponent @ react-dom-client.development.js:10501
+beginWork @ react-dom-client.development.js:12136
+runWithFiberInDEV @ react-dom-client.development.js:986
+performUnitOfWork @ react-dom-client.development.js:18997
+workLoopSync @ react-dom-client.development.js:18825
+renderRootSync @ react-dom-client.development.js:18806
+performWorkOnRoot @ react-dom-client.development.js:17914
+performWorkOnRootViaSchedulerTask @ react-dom-client.development.js:20384
+performWorkUntilDeadline @ scheduler.development.js:45
+<ProductCard>
+exports.jsxDEV @ react-jsx-dev-runtime.development.js:342
+(anónimas) @ product-list-content.tsx:118
+ProductListContent @ product-list-content.tsx:117
+react_stack_bottom_frame @ react-dom-client.development.js:28038
+renderWithHooksAgain @ react-dom-client.development.js:8084
+renderWithHooks @ react-dom-client.development.js:7996
+updateFunctionComponent @ react-dom-client.development.js:10501
+beginWork @ react-dom-client.development.js:12085
+runWithFiberInDEV @ react-dom-client.development.js:986
+performUnitOfWork @ react-dom-client.development.js:18997
+workLoopSync @ react-dom-client.development.js:18825
+renderRootSync @ react-dom-client.development.js:18806
+performWorkOnRoot @ react-dom-client.development.js:17914
+performWorkOnRootViaSchedulerTask @ react-dom-client.development.js:20384
+performWorkUntilDeadline @ scheduler.development.js:45
+"use client"
+ProductList @ product-list.tsx:45
+initializeElement @ react-server-dom-turbopack-client.browser.development.js:1941
+(anónimas) @ react-server-dom-turbopack-client.browser.development.js:4623
+initializeModelChunk @ react-server-dom-turbopack-client.browser.development.js:1828
+readChunk @ react-server-dom-turbopack-client.browser.development.js:1450
+react_stack_bottom_frame @ react-dom-client.development.js:28145
+resolveLazy @ react-dom-client.development.js:6320
+reconcileChildFibersImpl @ react-dom-client.development.js:7291
+(anónimas) @ react-dom-client.development.js:7410
+reconcileChildren @ react-dom-client.development.js:10036
+updateOffscreenComponent @ react-dom-client.development.js:10244
+beginWork @ react-dom-client.development.js:12588
+runWithFiberInDEV @ react-dom-client.development.js:989
+performUnitOfWork @ react-dom-client.development.js:18997
+workLoopSync @ react-dom-client.development.js:18825
+renderRootSync @ react-dom-client.development.js:18806
+performWorkOnRoot @ react-dom-client.development.js:17914
+performWorkOnRootViaSchedulerTask @ react-dom-client.development.js:20384
+performWorkUntilDeadline @ scheduler.development.js:45
+<ProductList>
+Shop @ page.tsx:36
+initializeFakeTask @ react-server-dom-turbopack-client.browser.development.js:3392
+initializeDebugInfo @ react-server-dom-turbopack-client.browser.development.js:3415
+initializeDebugChunk @ react-server-dom-turbopack-client.browser.development.js:1772
+processFullStringRow @ react-server-dom-turbopack-client.browser.development.js:4389
+processFullBinaryRow @ react-server-dom-turbopack-client.browser.development.js:4300
+processBinaryChunk @ react-server-dom-turbopack-client.browser.development.js:4523
+progress @ react-server-dom-turbopack-client.browser.development.js:4799
+<Shop>
+Function.all @ VM4162 <anonymous>:1
+Function.all @ VM4162 <anonymous>:1
+initializeFakeTask @ react-server-dom-turbopack-client.browser.development.js:3390
+initializeDebugInfo @ react-server-dom-turbopack-client.browser.development.js:3415
+initializeDebugChunk @ react-server-dom-turbopack-client.browser.development.js:1772
+processFullStringRow @ react-server-dom-turbopack-client.browser.development.js:4389
+processFullBinaryRow @ react-server-dom-turbopack-client.browser.development.js:4300
+processBinaryChunk @ react-server-dom-turbopack-client.browser.development.js:4523
+progress @ react-server-dom-turbopack-client.browser.development.js:4799
+"use server"
+ResponseInstance @ react-server-dom-turbopack-client.browser.development.js:2784
+createResponseFromOptions @ react-server-dom-turbopack-client.browser.development.js:4660
+exports.createFromReadableStream @ react-server-dom-turbopack-client.browser.development.js:5064
+module evaluation @ app-index.tsx:211
+(anónimas) @ dev-base.ts:244
+runModuleExecutionHooks @ dev-base.ts:278
+instantiateModule @ dev-base.ts:238
+getOrInstantiateModuleFromParent @ dev-base.ts:162
+commonJsRequire @ runtime-utils.ts:389
+(anónimas) @ app-next-turbopack.ts:11
+(anónimas) @ app-bootstrap.ts:79
+loadScriptsInSequence @ app-bootstrap.ts:23
+appBootstrap @ app-bootstrap.ts:61
+module evaluation @ app-next-turbopack.ts:10
+(anónimas) @ dev-base.ts:244
+runModuleExecutionHooks @ dev-base.ts:278
+instantiateModule @ dev-base.ts:238
+getOrInstantiateRuntimeModule @ dev-base.ts:128
+registerChunk @ runtime-backend-dom.ts:57
+await in registerChunk
+registerChunk @ dev-base.ts:1149
+(anónimas) @ dev-backend-dom.ts:126
+(anónimas) @ dev-backend-dom.ts:126
+product-image.tsx:13 Image with src "/perfumes/beautinow-niche-perfume-Oi9vbSj6mCU-unsplash.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+warn @ forward-logs-shared.ts:95
+warnOnce @ warn-once.ts:6
+getImgProps @ get-img-props.ts:564
+(anónimas) @ image-component.tsx:402
+react_stack_bottom_frame @ react-dom-client.development.js:28038
+renderWithHooks @ react-dom-client.development.js:7984
+updateForwardRef @ react-dom-client.development.js:10059
+beginWork @ react-dom-client.development.js:12475
+runWithFiberInDEV @ react-dom-client.development.js:986
+performUnitOfWork @ react-dom-client.development.js:18997
+workLoopSync @ react-dom-client.development.js:18825
+renderRootSync @ react-dom-client.development.js:18806
+performWorkOnRoot @ react-dom-client.development.js:17914
+performWorkOnRootViaSchedulerTask @ react-dom-client.development.js:20384
+performWorkUntilDeadline @ scheduler.development.js:45
+<ForwardRef>
+exports.jsxDEV @ react-jsx-dev-runtime.development.js:342
+ProductImage @ product-image.tsx:13
+react_stack_bottom_frame @ react-dom-client.development.js:28038
+renderWithHooksAgain @ react-dom-client.development.js:8084
+renderWithHooks @ react-dom-client.development.js:7996
+updateFunctionComponent @ react-dom-client.development.js:10501
+beginWork @ react-dom-client.development.js:12136
+runWithFiberInDEV @ react-dom-client.development.js:986
+performUnitOfWork @ react-dom-client.development.js:18997
+workLoopSync @ react-dom-client.development.js:18825
+renderRootSync @ react-dom-client.development.js:18806
+performWorkOnRoot @ react-dom-client.development.js:17914
+performWorkOnRootViaSchedulerTask @ react-dom-client.development.js:20384
+performWorkUntilDeadline @ scheduler.development.js:45
+<ProductImage>
+exports.jsxDEV @ react-jsx-dev-runtime.development.js:342
+ProductCard @ index.tsx:27
+react_stack_bottom_frame @ react-dom-client.development.js:28038
+renderWithHooksAgain @ react-dom-client.development.js:8084
+renderWithHooks @ react-dom-client.development.js:7996
+updateFunctionComponent @ react-dom-client.development.js:10501
+beginWork @ react-dom-client.development.js:12136
+runWithFiberInDEV @ react-dom-client.development.js:986
+performUnitOfWork @ react-dom-client.development.js:18997
+workLoopSync @ react-dom-client.development.js:18825
+renderRootSync @ react-dom-client.development.js:18806
+performWorkOnRoot @ react-dom-client.development.js:17914
+performWorkOnRootViaSchedulerTask @ react-dom-client.development.js:20384
+performWorkUntilDeadline @ scheduler.development.js:45
+<ProductCard>
+exports.jsxDEV @ react-jsx-dev-runtime.development.js:342
+(anónimas) @ product-list-content.tsx:118
+ProductListContent @ product-list-content.tsx:117
+react_stack_bottom_frame @ react-dom-client.development.js:28038
+renderWithHooksAgain @ react-dom-client.development.js:8084
+renderWithHooks @ react-dom-client.development.js:7996
+updateFunctionComponent @ react-dom-client.development.js:10501
+beginWork @ react-dom-client.development.js:12085
+runWithFiberInDEV @ react-dom-client.development.js:986
+performUnitOfWork @ react-dom-client.development.js:18997
+workLoopSync @ react-dom-client.development.js:18825
+renderRootSync @ react-dom-client.development.js:18806
+performWorkOnRoot @ react-dom-client.development.js:17914
+performWorkOnRootViaSchedulerTask @ react-dom-client.development.js:20384
+performWorkUntilDeadline @ scheduler.development.js:45
+"use client"
+ProductList @ product-list.tsx:45
+initializeElement @ react-server-dom-turbopack-client.browser.development.js:1941
+(anónimas) @ react-server-dom-turbopack-client.browser.development.js:4623
+initializeModelChunk @ react-server-dom-turbopack-client.browser.development.js:1828
+readChunk @ react-server-dom-turbopack-client.browser.development.js:1450
+react_stack_bottom_frame @ react-dom-client.development.js:28145
+resolveLazy @ react-dom-client.development.js:6320
+reconcileChildFibersImpl @ react-dom-client.development.js:7291
+(anónimas) @ react-dom-client.development.js:7410
+reconcileChildren @ react-dom-client.development.js:10036
+updateOffscreenComponent @ react-dom-client.development.js:10244
+beginWork @ react-dom-client.development.js:12588
+runWithFiberInDEV @ react-dom-client.development.js:989
+performUnitOfWork @ react-dom-client.development.js:18997
+workLoopSync @ react-dom-client.development.js:18825
+renderRootSync @ react-dom-client.development.js:18806
+performWorkOnRoot @ react-dom-client.development.js:17914
+performWorkOnRootViaSchedulerTask @ react-dom-client.development.js:20384
+performWorkUntilDeadline @ scheduler.development.js:45
+<ProductList>
+Shop @ page.tsx:36
+initializeFakeTask @ react-server-dom-turbopack-client.browser.development.js:3392
+initializeDebugInfo @ react-server-dom-turbopack-client.browser.development.js:3415
+initializeDebugChunk @ react-server-dom-turbopack-client.browser.development.js:1772
+processFullStringRow @ react-server-dom-turbopack-client.browser.development.js:4389
+processFullBinaryRow @ react-server-dom-turbopack-client.browser.development.js:4300
+processBinaryChunk @ react-server-dom-turbopack-client.browser.development.js:4523
+progress @ react-server-dom-turbopack-client.browser.development.js:4799
+<Shop>
+Function.all @ VM4162 <anonymous>:1
+Function.all @ VM4162 <anonymous>:1
+initializeFakeTask @ react-server-dom-turbopack-client.browser.development.js:3390
+initializeDebugInfo @ react-server-dom-turbopack-client.browser.development.js:3415
+initializeDebugChunk @ react-server-dom-turbopack-client.browser.development.js:1772
+processFullStringRow @ react-server-dom-turbopack-client.browser.development.js:4389
+processFullBinaryRow @ react-server-dom-turbopack-client.browser.development.js:4300
+processBinaryChunk @ react-server-dom-turbopack-client.browser.development.js:4523
+progress @ react-server-dom-turbopack-client.browser.development.js:4799
+"use server"
+ResponseInstance @ react-server-dom-turbopack-client.browser.development.js:2784
+createResponseFromOptions @ react-server-dom-turbopack-client.browser.development.js:4660
+exports.createFromReadableStream @ react-server-dom-turbopack-client.browser.development.js:5064
+module evaluation @ app-index.tsx:211
+(anónimas) @ dev-base.ts:244
+runModuleExecutionHooks @ dev-base.ts:278
+instantiateModule @ dev-base.ts:238
+getOrInstantiateModuleFromParent @ dev-base.ts:162
+commonJsRequire @ runtime-utils.ts:389
+(anónimas) @ app-next-turbopack.ts:11
+(anónimas) @ app-bootstrap.ts:79
+loadScriptsInSequence @ app-bootstrap.ts:23
+appBootstrap @ app-bootstrap.ts:61
+module evaluation @ app-next-turbopack.ts:10
+(anónimas) @ dev-base.ts:244
+runModuleExecutionHooks @ dev-base.ts:278
+instantiateModule @ dev-base.ts:238
+getOrInstantiateRuntimeModule @ dev-base.ts:128
+registerChunk @ runtime-backend-dom.ts:57
+await in registerChunk
+registerChunk @ dev-base.ts:1149
+(anónimas) @ dev-backend-dom.ts:126
+(anónimas) @ dev-backend-dom.ts:126
+product-image.tsx:13 Image with src "/perfumes/chenbushi-Dxgp0wVQbLU-unsplash.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+warn @ forward-logs-shared.ts:95
+warnOnce @ warn-once.ts:6
+getImgProps @ get-img-props.ts:564
+(anónimas) @ image-component.tsx:402
+react_stack_bottom_frame @ react-dom-client.development.js:28038
+renderWithHooks @ react-dom-client.development.js:7984
+updateForwardRef @ react-dom-client.development.js:10059
+beginWork @ react-dom-client.development.js:12475
+runWithFiberInDEV @ react-dom-client.development.js:986
+performUnitOfWork @ react-dom-client.development.js:18997
+workLoopSync @ react-dom-client.development.js:18825
+renderRootSync @ react-dom-client.development.js:18806
+performWorkOnRoot @ react-dom-client.development.js:17914
+performWorkOnRootViaSchedulerTask @ react-dom-client.development.js:20384
+performWorkUntilDeadline @ scheduler.development.js:45
+<ForwardRef>
+exports.jsxDEV @ react-jsx-dev-runtime.development.js:342
+ProductImage @ product-image.tsx:13
+react_stack_bottom_frame @ react-dom-client.development.js:28038
+renderWithHooksAgain @ react-dom-client.development.js:8084
+renderWithHooks @ react-dom-client.development.js:7996
+updateFunctionComponent @ react-dom-client.development.js:10501
+beginWork @ react-dom-client.development.js:12136
+runWithFiberInDEV @ react-dom-client.development.js:986
+performUnitOfWork @ react-dom-client.development.js:18997
+workLoopSync @ react-dom-client.development.js:18825
+renderRootSync @ react-dom-client.development.js:18806
+performWorkOnRoot @ react-dom-client.development.js:17914
+performWorkOnRootViaSchedulerTask @ react-dom-client.development.js:20384
+performWorkUntilDeadline @ scheduler.development.js:45
+<ProductImage>
+exports.jsxDEV @ react-jsx-dev-runtime.development.js:342
+ProductCard @ index.tsx:27
+react_stack_bottom_frame @ react-dom-client.development.js:28038
+renderWithHooksAgain @ react-dom-client.development.js:8084
+renderWithHooks @ react-dom-client.development.js:7996
+updateFunctionComponent @ react-dom-client.development.js:10501
+beginWork @ react-dom-client.development.js:12136
+runWithFiberInDEV @ react-dom-client.development.js:986
+performUnitOfWork @ react-dom-client.development.js:18997
+workLoopSync @ react-dom-client.development.js:18825
+renderRootSync @ react-dom-client.development.js:18806
+performWorkOnRoot @ react-dom-client.development.js:17914
+performWorkOnRootViaSchedulerTask @ react-dom-client.development.js:20384
+performWorkUntilDeadline @ scheduler.development.js:45
+<ProductCard>
+exports.jsxDEV @ react-jsx-dev-runtime.development.js:342
+(anónimas) @ product-list-content.tsx:118
+ProductListContent @ product-list-content.tsx:117
+react_stack_bottom_frame @ react-dom-client.development.js:28038
+renderWithHooksAgain @ react-dom-client.development.js:8084
+renderWithHooks @ react-dom-client.development.js:7996
+updateFunctionComponent @ react-dom-client.development.js:10501
+beginWork @ react-dom-client.development.js:12085
+runWithFiberInDEV @ react-dom-client.development.js:986
+performUnitOfWork @ react-dom-client.development.js:18997
+workLoopSync @ react-dom-client.development.js:18825
+renderRootSync @ react-dom-client.development.js:18806
+performWorkOnRoot @ react-dom-client.development.js:17914
+performWorkOnRootViaSchedulerTask @ react-dom-client.development.js:20384
+performWorkUntilDeadline @ scheduler.development.js:45
+"use client"
+ProductList @ product-list.tsx:45
+initializeElement @ react-server-dom-turbopack-client.browser.development.js:1941
+(anónimas) @ react-server-dom-turbopack-client.browser.development.js:4623
+initializeModelChunk @ react-server-dom-turbopack-client.browser.development.js:1828
+readChunk @ react-server-dom-turbopack-client.browser.development.js:1450
+react_stack_bottom_frame @ react-dom-client.development.js:28145
+resolveLazy @ react-dom-client.development.js:6320
+reconcileChildFibersImpl @ react-dom-client.development.js:7291
+(anónimas) @ react-dom-client.development.js:7410
+reconcileChildren @ react-dom-client.development.js:10036
+updateOffscreenComponent @ react-dom-client.development.js:10244
+beginWork @ react-dom-client.development.js:12588
+runWithFiberInDEV @ react-dom-client.development.js:989
+performUnitOfWork @ react-dom-client.development.js:18997
+workLoopSync @ react-dom-client.development.js:18825
+renderRootSync @ react-dom-client.development.js:18806
+performWorkOnRoot @ react-dom-client.development.js:17914
+performWorkOnRootViaSchedulerTask @ react-dom-client.development.js:20384
+performWorkUntilDeadline @ scheduler.development.js:45
+<ProductList>
+Shop @ page.tsx:36
+initializeFakeTask @ react-server-dom-turbopack-client.browser.development.js:3392
+initializeDebugInfo @ react-server-dom-turbopack-client.browser.development.js:3415
+initializeDebugChunk @ react-server-dom-turbopack-client.browser.development.js:1772
+processFullStringRow @ react-server-dom-turbopack-client.browser.development.js:4389
+processFullBinaryRow @ react-server-dom-turbopack-client.browser.development.js:4300
+processBinaryChunk @ react-server-dom-turbopack-client.browser.development.js:4523
+progress @ react-server-dom-turbopack-client.browser.development.js:4799
+<Shop>
+Function.all @ VM4162 <anonymous>:1
+Function.all @ VM4162 <anonymous>:1
+initializeFakeTask @ react-server-dom-turbopack-client.browser.development.js:3390
+initializeDebugInfo @ react-server-dom-turbopack-client.browser.development.js:3415
+initializeDebugChunk @ react-server-dom-turbopack-client.browser.development.js:1772
+processFullStringRow @ react-server-dom-turbopack-client.browser.development.js:4389
+processFullBinaryRow @ react-server-dom-turbopack-client.browser.development.js:4300
+processBinaryChunk @ react-server-dom-turbopack-client.browser.development.js:4523
+progress @ react-server-dom-turbopack-client.browser.development.js:4799
+"use server"
+ResponseInstance @ react-server-dom-turbopack-client.browser.development.js:2784
+createResponseFromOptions @ react-server-dom-turbopack-client.browser.development.js:4660
+exports.createFromReadableStream @ react-server-dom-turbopack-client.browser.development.js:5064
+module evaluation @ app-index.tsx:211
+(anónimas) @ dev-base.ts:244
+runModuleExecutionHooks @ dev-base.ts:278
+instantiateModule @ dev-base.ts:238
+getOrInstantiateModuleFromParent @ dev-base.ts:162
+commonJsRequire @ runtime-utils.ts:389
+(anónimas) @ app-next-turbopack.ts:11
+(anónimas) @ app-bootstrap.ts:79
+loadScriptsInSequence @ app-bootstrap.ts:23
+appBootstrap @ app-bootstrap.ts:61
+module evaluation @ app-next-turbopack.ts:10
+(anónimas) @ dev-base.ts:244
+runModuleExecutionHooks @ dev-base.ts:278
+instantiateModule @ dev-base.ts:238
+getOrInstantiateRuntimeModule @ dev-base.ts:128
+registerChunk @ runtime-backend-dom.ts:57
+await in registerChunk
+registerChunk @ dev-base.ts:1149
+(anónimas) @ dev-backend-dom.ts:126
+(anónimas) @ dev-backend-dom.ts:126
+product-image.tsx:13 Image with src "/perfumes/tron-le-UMTh7DFMx6s-unsplash.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+warn @ forward-logs-shared.ts:95
+warnOnce @ warn-once.ts:6
+getImgProps @ get-img-props.ts:564
+(anónimas) @ image-component.tsx:402
+react_stack_bottom_frame @ react-dom-client.development.js:28038
+renderWithHooks @ react-dom-client.development.js:7984
+updateForwardRef @ react-dom-client.development.js:10059
+beginWork @ react-dom-client.development.js:12475
+runWithFiberInDEV @ react-dom-client.development.js:986
+performUnitOfWork @ react-dom-client.development.js:18997
+workLoopSync @ react-dom-client.development.js:18825
+renderRootSync @ react-dom-client.development.js:18806
+performWorkOnRoot @ react-dom-client.development.js:17914
+performWorkOnRootViaSchedulerTask @ react-dom-client.development.js:20384
+performWorkUntilDeadline @ scheduler.development.js:45
+<ForwardRef>
+exports.jsxDEV @ react-jsx-dev-runtime.development.js:342
+ProductImage @ product-image.tsx:13
+react_stack_bottom_frame @ react-dom-client.development.js:28038
+renderWithHooksAgain @ react-dom-client.development.js:8084
+renderWithHooks @ react-dom-client.development.js:7996
+updateFunctionComponent @ react-dom-client.development.js:10501
+beginWork @ react-dom-client.development.js:12136
+runWithFiberInDEV @ react-dom-client.development.js:986
+performUnitOfWork @ react-dom-client.development.js:18997
+workLoopSync @ react-dom-client.development.js:18825
+renderRootSync @ react-dom-client.development.js:18806
+performWorkOnRoot @ react-dom-client.development.js:17914
+performWorkOnRootViaSchedulerTask @ react-dom-client.development.js:20384
+performWorkUntilDeadline @ scheduler.development.js:45
+<ProductImage>
+exports.jsxDEV @ react-jsx-dev-runtime.development.js:342
+ProductCard @ index.tsx:27
+react_stack_bottom_frame @ react-dom-client.development.js:28038
+renderWithHooksAgain @ react-dom-client.development.js:8084
+renderWithHooks @ react-dom-client.development.js:7996
+updateFunctionComponent @ react-dom-client.development.js:10501
+beginWork @ react-dom-client.development.js:12136
+runWithFiberInDEV @ react-dom-client.development.js:986
+performUnitOfWork @ react-dom-client.development.js:18997
+workLoopSync @ react-dom-client.development.js:18825
+renderRootSync @ react-dom-client.development.js:18806
+performWorkOnRoot @ react-dom-client.development.js:17914
+performWorkOnRootViaSchedulerTask @ react-dom-client.development.js:20384
+performWorkUntilDeadline @ scheduler.development.js:45
+<ProductCard>
+exports.jsxDEV @ react-jsx-dev-runtime.development.js:342
+(anónimas) @ product-list-content.tsx:118
+ProductListContent @ product-list-content.tsx:117
+react_stack_bottom_frame @ react-dom-client.development.js:28038
+renderWithHooksAgain @ react-dom-client.development.js:8084
+renderWithHooks @ react-dom-client.development.js:7996
+updateFunctionComponent @ react-dom-client.development.js:10501
+beginWork @ react-dom-client.development.js:12085
+runWithFiberInDEV @ react-dom-client.development.js:986
+performUnitOfWork @ react-dom-client.development.js:18997
+workLoopSync @ react-dom-client.development.js:18825
+renderRootSync @ react-dom-client.development.js:18806
+performWorkOnRoot @ react-dom-client.development.js:17914
+performWorkOnRootViaSchedulerTask @ react-dom-client.development.js:20384
+performWorkUntilDeadline @ scheduler.development.js:45
+"use client"
+ProductList @ product-list.tsx:45
+initializeElement @ react-server-dom-turbopack-client.browser.development.js:1941
+(anónimas) @ react-server-dom-turbopack-client.browser.development.js:4623
+initializeModelChunk @ react-server-dom-turbopack-client.browser.development.js:1828
+readChunk @ react-server-dom-turbopack-client.browser.development.js:1450
+react_stack_bottom_frame @ react-dom-client.development.js:28145
+resolveLazy @ react-dom-client.development.js:6320
+reconcileChildFibersImpl @ react-dom-client.development.js:7291
+(anónimas) @ react-dom-client.development.js:7410
+reconcileChildren @ react-dom-client.development.js:10036
+updateOffscreenComponent @ react-dom-client.development.js:10244
+beginWork @ react-dom-client.development.js:12588
+runWithFiberInDEV @ react-dom-client.development.js:989
+performUnitOfWork @ react-dom-client.development.js:18997
+workLoopSync @ react-dom-client.development.js:18825
+renderRootSync @ react-dom-client.development.js:18806
+performWorkOnRoot @ react-dom-client.development.js:17914
+performWorkOnRootViaSchedulerTask @ react-dom-client.development.js:20384
+performWorkUntilDeadline @ scheduler.development.js:45
+<ProductList>
+Shop @ page.tsx:36
+initializeFakeTask @ react-server-dom-turbopack-client.browser.development.js:3392
+initializeDebugInfo @ react-server-dom-turbopack-client.browser.development.js:3415
+initializeDebugChunk @ react-server-dom-turbopack-client.browser.development.js:1772
+processFullStringRow @ react-server-dom-turbopack-client.browser.development.js:4389
+processFullBinaryRow @ react-server-dom-turbopack-client.browser.development.js:4300
+processBinaryChunk @ react-server-dom-turbopack-client.browser.development.js:4523
+progress @ react-server-dom-turbopack-client.browser.development.js:4799
+<Shop>
+Function.all @ VM4162 <anonymous>:1
+Function.all @ VM4162 <anonymous>:1
+initializeFakeTask @ react-server-dom-turbopack-client.browser.development.js:3390
+initializeDebugInfo @ react-server-dom-turbopack-client.browser.development.js:3415
+initializeDebugChunk @ react-server-dom-turbopack-client.browser.development.js:1772
+processFullStringRow @ react-server-dom-turbopack-client.browser.development.js:4389
+processFullBinaryRow @ react-server-dom-turbopack-client.browser.development.js:4300
+processBinaryChunk @ react-server-dom-turbopack-client.browser.development.js:4523
+progress @ react-server-dom-turbopack-client.browser.development.js:4799
+"use server"
+ResponseInstance @ react-server-dom-turbopack-client.browser.development.js:2784
+createResponseFromOptions @ react-server-dom-turbopack-client.browser.development.js:4660
+exports.createFromReadableStream @ react-server-dom-turbopack-client.browser.development.js:5064
+module evaluation @ app-index.tsx:211
+(anónimas) @ dev-base.ts:244
+runModuleExecutionHooks @ dev-base.ts:278
+instantiateModule @ dev-base.ts:238
+getOrInstantiateModuleFromParent @ dev-base.ts:162
+commonJsRequire @ runtime-utils.ts:389
+(anónimas) @ app-next-turbopack.ts:11
+(anónimas) @ app-bootstrap.ts:79
+loadScriptsInSequence @ app-bootstrap.ts:23
+appBootstrap @ app-bootstrap.ts:61
+module evaluation @ app-next-turbopack.ts:10
+(anónimas) @ dev-base.ts:244
+runModuleExecutionHooks @ dev-base.ts:278
+instantiateModule @ dev-base.ts:238
+getOrInstantiateRuntimeModule @ dev-base.ts:128
+registerChunk @ runtime-backend-dom.ts:57
+await in registerChunk
+registerChunk @ dev-base.ts:1149
+(anónimas) @ dev-backend-dom.ts:126
+(anónimas) @ dev-backend-dom.ts:126
+product-image.tsx:13 Image with src "/perfumes/jay-soundo-aWEnLrHGu0M-unsplash.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+warn @ forward-logs-shared.ts:95
+warnOnce @ warn-once.ts:6
+getImgProps @ get-img-props.ts:564
+(anónimas) @ image-component.tsx:402
+react_stack_bottom_frame @ react-dom-client.development.js:28038
+renderWithHooks @ react-dom-client.development.js:7984
+updateForwardRef @ react-dom-client.development.js:10059
+beginWork @ react-dom-client.development.js:12475
+runWithFiberInDEV @ react-dom-client.development.js:986
+performUnitOfWork @ react-dom-client.development.js:18997
+workLoopSync @ react-dom-client.development.js:18825
+renderRootSync @ react-dom-client.development.js:18806
+performWorkOnRoot @ react-dom-client.development.js:17914
+performWorkOnRootViaSchedulerTask @ react-dom-client.development.js:20384
+performWorkUntilDeadline @ scheduler.development.js:45
+<ForwardRef>
+exports.jsxDEV @ react-jsx-dev-runtime.development.js:342
+ProductImage @ product-image.tsx:13
+react_stack_bottom_frame @ react-dom-client.development.js:28038
+renderWithHooksAgain @ react-dom-client.development.js:8084
+renderWithHooks @ react-dom-client.development.js:7996
+updateFunctionComponent @ react-dom-client.development.js:10501
+beginWork @ react-dom-client.development.js:12136
+runWithFiberInDEV @ react-dom-client.development.js:986
+performUnitOfWork @ react-dom-client.development.js:18997
+workLoopSync @ react-dom-client.development.js:18825
+renderRootSync @ react-dom-client.development.js:18806
+performWorkOnRoot @ react-dom-client.development.js:17914
+performWorkOnRootViaSchedulerTask @ react-dom-client.development.js:20384
+performWorkUntilDeadline @ scheduler.development.js:45
+<ProductImage>
+exports.jsxDEV @ react-jsx-dev-runtime.development.js:342
+ProductCard @ index.tsx:27
+react_stack_bottom_frame @ react-dom-client.development.js:28038
+renderWithHooksAgain @ react-dom-client.development.js:8084
+renderWithHooks @ react-dom-client.development.js:7996
+updateFunctionComponent @ react-dom-client.development.js:10501
+beginWork @ react-dom-client.development.js:12136
+runWithFiberInDEV @ react-dom-client.development.js:986
+performUnitOfWork @ react-dom-client.development.js:18997
+workLoopSync @ react-dom-client.development.js:18825
+renderRootSync @ react-dom-client.development.js:18806
+performWorkOnRoot @ react-dom-client.development.js:17914
+performWorkOnRootViaSchedulerTask @ react-dom-client.development.js:20384
+performWorkUntilDeadline @ scheduler.development.js:45
+<ProductCard>
+exports.jsxDEV @ react-jsx-dev-runtime.development.js:342
+(anónimas) @ product-list-content.tsx:118
+ProductListContent @ product-list-content.tsx:117
+react_stack_bottom_frame @ react-dom-client.development.js:28038
+renderWithHooksAgain @ react-dom-client.development.js:8084
+renderWithHooks @ react-dom-client.development.js:7996
+updateFunctionComponent @ react-dom-client.development.js:10501
+beginWork @ react-dom-client.development.js:12085
+runWithFiberInDEV @ react-dom-client.development.js:986
+performUnitOfWork @ react-dom-client.development.js:18997
+workLoopSync @ react-dom-client.development.js:18825
+renderRootSync @ react-dom-client.development.js:18806
+performWorkOnRoot @ react-dom-client.development.js:17914
+performWorkOnRootViaSchedulerTask @ react-dom-client.development.js:20384
+performWorkUntilDeadline @ scheduler.development.js:45
+"use client"
+ProductList @ product-list.tsx:45
+initializeElement @ react-server-dom-turbopack-client.browser.development.js:1941
+(anónimas) @ react-server-dom-turbopack-client.browser.development.js:4623
+initializeModelChunk @ react-server-dom-turbopack-client.browser.development.js:1828
+readChunk @ react-server-dom-turbopack-client.browser.development.js:1450
+react_stack_bottom_frame @ react-dom-client.development.js:28145
+resolveLazy @ react-dom-client.development.js:6320
+reconcileChildFibersImpl @ react-dom-client.development.js:7291
+(anónimas) @ react-dom-client.development.js:7410
+reconcileChildren @ react-dom-client.development.js:10036
+updateOffscreenComponent @ react-dom-client.development.js:10244
+beginWork @ react-dom-client.development.js:12588
+runWithFiberInDEV @ react-dom-client.development.js:989
+performUnitOfWork @ react-dom-client.development.js:18997
+workLoopSync @ react-dom-client.development.js:18825
+renderRootSync @ react-dom-client.development.js:18806
+performWorkOnRoot @ react-dom-client.development.js:17914
+performWorkOnRootViaSchedulerTask @ react-dom-client.development.js:20384
+performWorkUntilDeadline @ scheduler.development.js:45
+<ProductList>
+Shop @ page.tsx:36
+initializeFakeTask @ react-server-dom-turbopack-client.browser.development.js:3392
+initializeDebugInfo @ react-server-dom-turbopack-client.browser.development.js:3415
+initializeDebugChunk @ react-server-dom-turbopack-client.browser.development.js:1772
+processFullStringRow @ react-server-dom-turbopack-client.browser.development.js:4389
+processFullBinaryRow @ react-server-dom-turbopack-client.browser.development.js:4300
+processBinaryChunk @ react-server-dom-turbopack-client.browser.development.js:4523
+progress @ react-server-dom-turbopack-client.browser.development.js:4799
+<Shop>
+Function.all @ VM4162 <anonymous>:1
+Function.all @ VM4162 <anonymous>:1
+initializeFakeTask @ react-server-dom-turbopack-client.browser.development.js:3390
+initializeDebugInfo @ react-server-dom-turbopack-client.browser.development.js:3415
+initializeDebugChunk @ react-server-dom-turbopack-client.browser.development.js:1772
+processFullStringRow @ react-server-dom-turbopack-client.browser.development.js:4389
+processFullBinaryRow @ react-server-dom-turbopack-client.browser.development.js:4300
+processBinaryChunk @ react-server-dom-turbopack-client.browser.development.js:4523
+progress @ react-server-dom-turbopack-client.browser.development.js:4799
+"use server"
+ResponseInstance @ react-server-dom-turbopack-client.browser.development.js:2784
+createResponseFromOptions @ react-server-dom-turbopack-client.browser.development.js:4660
+exports.createFromReadableStream @ react-server-dom-turbopack-client.browser.development.js:5064
+module evaluation @ app-index.tsx:211
+(anónimas) @ dev-base.ts:244
+runModuleExecutionHooks @ dev-base.ts:278
+instantiateModule @ dev-base.ts:238
+getOrInstantiateModuleFromParent @ dev-base.ts:162
+commonJsRequire @ runtime-utils.ts:389
+(anónimas) @ app-next-turbopack.ts:11
+(anónimas) @ app-bootstrap.ts:79
+loadScriptsInSequence @ app-bootstrap.ts:23
+appBootstrap @ app-bootstrap.ts:61
+module evaluation @ app-next-turbopack.ts:10
+(anónimas) @ dev-base.ts:244
+runModuleExecutionHooks @ dev-base.ts:278
+instantiateModule @ dev-base.ts:238
+getOrInstantiateRuntimeModule @ dev-base.ts:128
+registerChunk @ runtime-backend-dom.ts:57
+await in registerChunk
+registerChunk @ dev-base.ts:1149
+(anónimas) @ dev-backend-dom.ts:126
+(anónimas) @ dev-backend-dom.ts:126
+product-image.tsx:13 Image with src "/perfumes/cosmin-ursea-WzP_9jJ16gQ-unsplash.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+warn @ forward-logs-shared.ts:95
+warnOnce @ warn-once.ts:6
+getImgProps @ get-img-props.ts:564
+(anónimas) @ image-component.tsx:402
+react_stack_bottom_frame @ react-dom-client.development.js:28038
+renderWithHooks @ react-dom-client.development.js:7984
+updateForwardRef @ react-dom-client.development.js:10059
+beginWork @ react-dom-client.development.js:12475
+runWithFiberInDEV @ react-dom-client.development.js:986
+performUnitOfWork @ react-dom-client.development.js:18997
+workLoopSync @ react-dom-client.development.js:18825
+renderRootSync @ react-dom-client.development.js:18806
+performWorkOnRoot @ react-dom-client.development.js:17914
+performWorkOnRootViaSchedulerTask @ react-dom-client.development.js:20384
+performWorkUntilDeadline @ scheduler.development.js:45
+<ForwardRef>
+exports.jsxDEV @ react-jsx-dev-runtime.development.js:342
+ProductImage @ product-image.tsx:13
+react_stack_bottom_frame @ react-dom-client.development.js:28038
+renderWithHooksAgain @ react-dom-client.development.js:8084
+renderWithHooks @ react-dom-client.development.js:7996
+updateFunctionComponent @ react-dom-client.development.js:10501
+beginWork @ react-dom-client.development.js:12136
+runWithFiberInDEV @ react-dom-client.development.js:986
+performUnitOfWork @ react-dom-client.development.js:18997
+workLoopSync @ react-dom-client.development.js:18825
+renderRootSync @ react-dom-client.development.js:18806
+performWorkOnRoot @ react-dom-client.development.js:17914
+performWorkOnRootViaSchedulerTask @ react-dom-client.development.js:20384
+performWorkUntilDeadline @ scheduler.development.js:45
+<ProductImage>
+exports.jsxDEV @ react-jsx-dev-runtime.development.js:342
+ProductCard @ index.tsx:27
+react_stack_bottom_frame @ react-dom-client.development.js:28038
+renderWithHooksAgain @ react-dom-client.development.js:8084
+renderWithHooks @ react-dom-client.development.js:7996
+updateFunctionComponent @ react-dom-client.development.js:10501
+beginWork @ react-dom-client.development.js:12136
+runWithFiberInDEV @ react-dom-client.development.js:986
+performUnitOfWork @ react-dom-client.development.js:18997
+workLoopSync @ react-dom-client.development.js:18825
+renderRootSync @ react-dom-client.development.js:18806
+performWorkOnRoot @ react-dom-client.development.js:17914
+performWorkOnRootViaSchedulerTask @ react-dom-client.development.js:20384
+performWorkUntilDeadline @ scheduler.development.js:45
+<ProductCard>
+exports.jsxDEV @ react-jsx-dev-runtime.development.js:342
+(anónimas) @ product-list-content.tsx:118
+ProductListContent @ product-list-content.tsx:117
+react_stack_bottom_frame @ react-dom-client.development.js:28038
+renderWithHooksAgain @ react-dom-client.development.js:8084
+renderWithHooks @ react-dom-client.development.js:7996
+updateFunctionComponent @ react-dom-client.development.js:10501
+beginWork @ react-dom-client.development.js:12085
+runWithFiberInDEV @ react-dom-client.development.js:986
+performUnitOfWork @ react-dom-client.development.js:18997
+workLoopSync @ react-dom-client.development.js:18825
+renderRootSync @ react-dom-client.development.js:18806
+performWorkOnRoot @ react-dom-client.development.js:17914
+performWorkOnRootViaSchedulerTask @ react-dom-client.development.js:20384
+performWorkUntilDeadline @ scheduler.development.js:45
+"use client"
+ProductList @ product-list.tsx:45
+initializeElement @ react-server-dom-turbopack-client.browser.development.js:1941
+(anónimas) @ react-server-dom-turbopack-client.browser.development.js:4623
+initializeModelChunk @ react-server-dom-turbopack-client.browser.development.js:1828
+readChunk @ react-server-dom-turbopack-client.browser.development.js:1450
+react_stack_bottom_frame @ react-dom-client.development.js:28145
+resolveLazy @ react-dom-client.development.js:6320
+reconcileChildFibersImpl @ react-dom-client.development.js:7291
+(anónimas) @ react-dom-client.development.js:7410
+reconcileChildren @ react-dom-client.development.js:10036
+updateOffscreenComponent @ react-dom-client.development.js:10244
+beginWork @ react-dom-client.development.js:12588
+runWithFiberInDEV @ react-dom-client.development.js:989
+performUnitOfWork @ react-dom-client.development.js:18997
+workLoopSync @ react-dom-client.development.js:18825
+renderRootSync @ react-dom-client.development.js:18806
+performWorkOnRoot @ react-dom-client.development.js:17914
+performWorkOnRootViaSchedulerTask @ react-dom-client.development.js:20384
+performWorkUntilDeadline @ scheduler.development.js:45
+<ProductList>
+Shop @ page.tsx:36
+initializeFakeTask @ react-server-dom-turbopack-client.browser.development.js:3392
+initializeDebugInfo @ react-server-dom-turbopack-client.browser.development.js:3415
+initializeDebugChunk @ react-server-dom-turbopack-client.browser.development.js:1772
+processFullStringRow @ react-server-dom-turbopack-client.browser.development.js:4389
+processFullBinaryRow @ react-server-dom-turbopack-client.browser.development.js:4300
+processBinaryChunk @ react-server-dom-turbopack-client.browser.development.js:4523
+progress @ react-server-dom-turbopack-client.browser.development.js:4799
+<Shop>
+Function.all @ VM4162 <anonymous>:1
+Function.all @ VM4162 <anonymous>:1
+initializeFakeTask @ react-server-dom-turbopack-client.browser.development.js:3390
+initializeDebugInfo @ react-server-dom-turbopack-client.browser.development.js:3415
+initializeDebugChunk @ react-server-dom-turbopack-client.browser.development.js:1772
+processFullStringRow @ react-server-dom-turbopack-client.browser.development.js:4389
+processFullBinaryRow @ react-server-dom-turbopack-client.browser.development.js:4300
+processBinaryChunk @ react-server-dom-turbopack-client.browser.development.js:4523
+progress @ react-server-dom-turbopack-client.browser.development.js:4799
+"use server"
+ResponseInstance @ react-server-dom-turbopack-client.browser.development.js:2784
+createResponseFromOptions @ react-server-dom-turbopack-client.browser.development.js:4660
+exports.createFromReadableStream @ react-server-dom-turbopack-client.browser.development.js:5064
+module evaluation @ app-index.tsx:211
+(anónimas) @ dev-base.ts:244
+runModuleExecutionHooks @ dev-base.ts:278
+instantiateModule @ dev-base.ts:238
+getOrInstantiateModuleFromParent @ dev-base.ts:162
+commonJsRequire @ runtime-utils.ts:389
+(anónimas) @ app-next-turbopack.ts:11
+(anónimas) @ app-bootstrap.ts:79
+loadScriptsInSequence @ app-bootstrap.ts:23
+appBootstrap @ app-bootstrap.ts:61
+module evaluation @ app-next-turbopack.ts:10
+(anónimas) @ dev-base.ts:244
+runModuleExecutionHooks @ dev-base.ts:278
+instantiateModule @ dev-base.ts:238
+getOrInstantiateRuntimeModule @ dev-base.ts:128
+registerChunk @ runtime-backend-dom.ts:57
+await in registerChunk
+registerChunk @ dev-base.ts:1149
+(anónimas) @ dev-backend-dom.ts:126
+(anónimas) @ dev-backend-dom.ts:126
+product-image.tsx:13 Image with src "/perfumes/beautinow-niche-perfume-CAqsBQ9kXko-unsplash.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+warn @ forward-logs-shared.ts:95
+warnOnce @ warn-once.ts:6
+getImgProps @ get-img-props.ts:564
+(anónimas) @ image-component.tsx:402
+react_stack_bottom_frame @ react-dom-client.development.js:28038
+renderWithHooks @ react-dom-client.development.js:7984
+updateForwardRef @ react-dom-client.development.js:10059
+beginWork @ react-dom-client.development.js:12475
+runWithFiberInDEV @ react-dom-client.development.js:986
+performUnitOfWork @ react-dom-client.development.js:18997
+workLoopSync @ react-dom-client.development.js:18825
+renderRootSync @ react-dom-client.development.js:18806
+performWorkOnRoot @ react-dom-client.development.js:17914
+performWorkOnRootViaSchedulerTask @ react-dom-client.development.js:20384
+performWorkUntilDeadline @ scheduler.development.js:45
+<ForwardRef>
+exports.jsxDEV @ react-jsx-dev-runtime.development.js:342
+ProductImage @ product-image.tsx:13
+react_stack_bottom_frame @ react-dom-client.development.js:28038
+renderWithHooksAgain @ react-dom-client.development.js:8084
+renderWithHooks @ react-dom-client.development.js:7996
+updateFunctionComponent @ react-dom-client.development.js:10501
+beginWork @ react-dom-client.development.js:12136
+runWithFiberInDEV @ react-dom-client.development.js:986
+performUnitOfWork @ react-dom-client.development.js:18997
+workLoopSync @ react-dom-client.development.js:18825
+renderRootSync @ react-dom-client.development.js:18806
+performWorkOnRoot @ react-dom-client.development.js:17914
+performWorkOnRootViaSchedulerTask @ react-dom-client.development.js:20384
+performWorkUntilDeadline @ scheduler.development.js:45
+<ProductImage>
+exports.jsxDEV @ react-jsx-dev-runtime.development.js:342
+ProductCard @ index.tsx:27
+react_stack_bottom_frame @ react-dom-client.development.js:28038
+renderWithHooksAgain @ react-dom-client.development.js:8084
+renderWithHooks @ react-dom-client.development.js:7996
+updateFunctionComponent @ react-dom-client.development.js:10501
+beginWork @ react-dom-client.development.js:12136
+runWithFiberInDEV @ react-dom-client.development.js:986
+performUnitOfWork @ react-dom-client.development.js:18997
+workLoopSync @ react-dom-client.development.js:18825
+renderRootSync @ react-dom-client.development.js:18806
+performWorkOnRoot @ react-dom-client.development.js:17914
+performWorkOnRootViaSchedulerTask @ react-dom-client.development.js:20384
+performWorkUntilDeadline @ scheduler.development.js:45
+<ProductCard>
+exports.jsxDEV @ react-jsx-dev-runtime.development.js:342
+(anónimas) @ product-list-content.tsx:118
+ProductListContent @ product-list-content.tsx:117
+react_stack_bottom_frame @ react-dom-client.development.js:28038
+renderWithHooksAgain @ react-dom-client.development.js:8084
+renderWithHooks @ react-dom-client.development.js:7996
+updateFunctionComponent @ react-dom-client.development.js:10501
+beginWork @ react-dom-client.development.js:12085
+runWithFiberInDEV @ react-dom-client.development.js:986
+performUnitOfWork @ react-dom-client.development.js:18997
+workLoopSync @ react-dom-client.development.js:18825
+renderRootSync @ react-dom-client.development.js:18806
+performWorkOnRoot @ react-dom-client.development.js:17914
+performWorkOnRootViaSchedulerTask @ react-dom-client.development.js:20384
+performWorkUntilDeadline @ scheduler.development.js:45
+"use client"
+ProductList @ product-list.tsx:45
+initializeElement @ react-server-dom-turbopack-client.browser.development.js:1941
+(anónimas) @ react-server-dom-turbopack-client.browser.development.js:4623
+initializeModelChunk @ react-server-dom-turbopack-client.browser.development.js:1828
+readChunk @ react-server-dom-turbopack-client.browser.development.js:1450
+react_stack_bottom_frame @ react-dom-client.development.js:28145
+resolveLazy @ react-dom-client.development.js:6320
+reconcileChildFibersImpl @ react-dom-client.development.js:7291
+(anónimas) @ react-dom-client.development.js:7410
+reconcileChildren @ react-dom-client.development.js:10036
+updateOffscreenComponent @ react-dom-client.development.js:10244
+beginWork @ react-dom-client.development.js:12588
+runWithFiberInDEV @ react-dom-client.development.js:989
+performUnitOfWork @ react-dom-client.development.js:18997
+workLoopSync @ react-dom-client.development.js:18825
+renderRootSync @ react-dom-client.development.js:18806
+performWorkOnRoot @ react-dom-client.development.js:17914
+performWorkOnRootViaSchedulerTask @ react-dom-client.development.js:20384
+performWorkUntilDeadline @ scheduler.development.js:45
+<ProductList>
+Shop @ page.tsx:36
+initializeFakeTask @ react-server-dom-turbopack-client.browser.development.js:3392
+initializeDebugInfo @ react-server-dom-turbopack-client.browser.development.js:3415
+initializeDebugChunk @ react-server-dom-turbopack-client.browser.development.js:1772
+processFullStringRow @ react-server-dom-turbopack-client.browser.development.js:4389
+processFullBinaryRow @ react-server-dom-turbopack-client.browser.development.js:4300
+processBinaryChunk @ react-server-dom-turbopack-client.browser.development.js:4523
+progress @ react-server-dom-turbopack-client.browser.development.js:4799
+<Shop>
+Function.all @ VM4162 <anonymous>:1
+Function.all @ VM4162 <anonymous>:1
+initializeFakeTask @ react-server-dom-turbopack-client.browser.development.js:3390
+initializeDebugInfo @ react-server-dom-turbopack-client.browser.development.js:3415
+initializeDebugChunk @ react-server-dom-turbopack-client.browser.development.js:1772
+processFullStringRow @ react-server-dom-turbopack-client.browser.development.js:4389
+processFullBinaryRow @ react-server-dom-turbopack-client.browser.development.js:4300
+processBinaryChunk @ react-server-dom-turbopack-client.browser.development.js:4523
+progress @ react-server-dom-turbopack-client.browser.development.js:4799
+"use server"
+ResponseInstance @ react-server-dom-turbopack-client.browser.development.js:2784
+createResponseFromOptions @ react-server-dom-turbopack-client.browser.development.js:4660
+exports.createFromReadableStream @ react-server-dom-turbopack-client.browser.development.js:5064
+module evaluation @ app-index.tsx:211
+(anónimas) @ dev-base.ts:244
+runModuleExecutionHooks @ dev-base.ts:278
+instantiateModule @ dev-base.ts:238
+getOrInstantiateModuleFromParent @ dev-base.ts:162
+commonJsRequire @ runtime-utils.ts:389
+(anónimas) @ app-next-turbopack.ts:11
+(anónimas) @ app-bootstrap.ts:79
+loadScriptsInSequence @ app-bootstrap.ts:23
+appBootstrap @ app-bootstrap.ts:61
+module evaluation @ app-next-turbopack.ts:10
+(anónimas) @ dev-base.ts:244
+runModuleExecutionHooks @ dev-base.ts:278
+instantiateModule @ dev-base.ts:238
+getOrInstantiateRuntimeModule @ dev-base.ts:128
+registerChunk @ runtime-backend-dom.ts:57
+await in registerChunk
+registerChunk @ dev-base.ts:1149
+(anónimas) @ dev-backend-dom.ts:126
+(anónimas) @ dev-backend-dom.ts:126
+product-image.tsx:13 Image with src "/perfumes/mahbod-akhzami-ao17WB4tCTQ-unsplash.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+warn @ forward-logs-shared.ts:95
+warnOnce @ warn-once.ts:6
+getImgProps @ get-img-props.ts:564
+(anónimas) @ image-component.tsx:402
+react_stack_bottom_frame @ react-dom-client.development.js:28038
+renderWithHooks @ react-dom-client.development.js:7984
+updateForwardRef @ react-dom-client.development.js:10059
+beginWork @ react-dom-client.development.js:12475
+runWithFiberInDEV @ react-dom-client.development.js:986
+performUnitOfWork @ react-dom-client.development.js:18997
+workLoopSync @ react-dom-client.development.js:18825
+renderRootSync @ react-dom-client.development.js:18806
+performWorkOnRoot @ react-dom-client.development.js:17914
+performWorkOnRootViaSchedulerTask @ react-dom-client.development.js:20384
+performWorkUntilDeadline @ scheduler.development.js:45
+<ForwardRef>
+exports.jsxDEV @ react-jsx-dev-runtime.development.js:342
+ProductImage @ product-image.tsx:13
+react_stack_bottom_frame @ react-dom-client.development.js:28038
+renderWithHooksAgain @ react-dom-client.development.js:8084
+renderWithHooks @ react-dom-client.development.js:7996
+updateFunctionComponent @ react-dom-client.development.js:10501
+beginWork @ react-dom-client.development.js:12136
+runWithFiberInDEV @ react-dom-client.development.js:986
+performUnitOfWork @ react-dom-client.development.js:18997
+workLoopSync @ react-dom-client.development.js:18825
+renderRootSync @ react-dom-client.development.js:18806
+performWorkOnRoot @ react-dom-client.development.js:17914
+performWorkOnRootViaSchedulerTask @ react-dom-client.development.js:20384
+performWorkUntilDeadline @ scheduler.development.js:45
+<ProductImage>
+exports.jsxDEV @ react-jsx-dev-runtime.development.js:342
+ProductCard @ index.tsx:27
+react_stack_bottom_frame @ react-dom-client.development.js:28038
+renderWithHooksAgain @ react-dom-client.development.js:8084
+renderWithHooks @ react-dom-client.development.js:7996
+updateFunctionComponent @ react-dom-client.development.js:10501
+beginWork @ react-dom-client.development.js:12136
+runWithFiberInDEV @ react-dom-client.development.js:986
+performUnitOfWork @ react-dom-client.development.js:18997
+workLoopSync @ react-dom-client.development.js:18825
+renderRootSync @ react-dom-client.development.js:18806
+performWorkOnRoot @ react-dom-client.development.js:17914
+performWorkOnRootViaSchedulerTask @ react-dom-client.development.js:20384
+performWorkUntilDeadline @ scheduler.development.js:45
+<ProductCard>
+exports.jsxDEV @ react-jsx-dev-runtime.development.js:342
+(anónimas) @ product-list-content.tsx:118
+ProductListContent @ product-list-content.tsx:117
+react_stack_bottom_frame @ react-dom-client.development.js:28038
+renderWithHooksAgain @ react-dom-client.development.js:8084
+renderWithHooks @ react-dom-client.development.js:7996
+updateFunctionComponent @ react-dom-client.development.js:10501
+beginWork @ react-dom-client.development.js:12085
+runWithFiberInDEV @ react-dom-client.development.js:986
+performUnitOfWork @ react-dom-client.development.js:18997
+workLoopSync @ react-dom-client.development.js:18825
+renderRootSync @ react-dom-client.development.js:18806
+performWorkOnRoot @ react-dom-client.development.js:17914
+performWorkOnRootViaSchedulerTask @ react-dom-client.development.js:20384
+performWorkUntilDeadline @ scheduler.development.js:45
+"use client"
+ProductList @ product-list.tsx:45
+initializeElement @ react-server-dom-turbopack-client.browser.development.js:1941
+(anónimas) @ react-server-dom-turbopack-client.browser.development.js:4623
+initializeModelChunk @ react-server-dom-turbopack-client.browser.development.js:1828
+readChunk @ react-server-dom-turbopack-client.browser.development.js:1450
+react_stack_bottom_frame @ react-dom-client.development.js:28145
+resolveLazy @ react-dom-client.development.js:6320
+reconcileChildFibersImpl @ react-dom-client.development.js:7291
+(anónimas) @ react-dom-client.development.js:7410
+reconcileChildren @ react-dom-client.development.js:10036
+updateOffscreenComponent @ react-dom-client.development.js:10244
+beginWork @ react-dom-client.development.js:12588
+runWithFiberInDEV @ react-dom-client.development.js:989
+performUnitOfWork @ react-dom-client.development.js:18997
+workLoopSync @ react-dom-client.development.js:18825
+renderRootSync @ react-dom-client.development.js:18806
+performWorkOnRoot @ react-dom-client.development.js:17914
+performWorkOnRootViaSchedulerTask @ react-dom-client.development.js:20384
+performWorkUntilDeadline @ scheduler.development.js:45
+<ProductList>
+Shop @ page.tsx:36
+initializeFakeTask @ react-server-dom-turbopack-client.browser.development.js:3392
+initializeDebugInfo @ react-server-dom-turbopack-client.browser.development.js:3415
+initializeDebugChunk @ react-server-dom-turbopack-client.browser.development.js:1772
+processFullStringRow @ react-server-dom-turbopack-client.browser.development.js:4389
+processFullBinaryRow @ react-server-dom-turbopack-client.browser.development.js:4300
+processBinaryChunk @ react-server-dom-turbopack-client.browser.development.js:4523
+progress @ react-server-dom-turbopack-client.browser.development.js:4799
+<Shop>
+Function.all @ VM4162 <anonymous>:1
+Function.all @ VM4162 <anonymous>:1
+initializeFakeTask @ react-server-dom-turbopack-client.browser.development.js:3390
+initializeDebugInfo @ react-server-dom-turbopack-client.browser.development.js:3415
+initializeDebugChunk @ react-server-dom-turbopack-client.browser.development.js:1772
+processFullStringRow @ react-server-dom-turbopack-client.browser.development.js:4389
+processFullBinaryRow @ react-server-dom-turbopack-client.browser.development.js:4300
+processBinaryChunk @ react-server-dom-turbopack-client.browser.development.js:4523
+progress @ react-server-dom-turbopack-client.browser.development.js:4799
+"use server"
+ResponseInstance @ react-server-dom-turbopack-client.browser.development.js:2784
+createResponseFromOptions @ react-server-dom-turbopack-client.browser.development.js:4660
+exports.createFromReadableStream @ react-server-dom-turbopack-client.browser.development.js:5064
+module evaluation @ app-index.tsx:211
+(anónimas) @ dev-base.ts:244
+runModuleExecutionHooks @ dev-base.ts:278
+instantiateModule @ dev-base.ts:238
+getOrInstantiateModuleFromParent @ dev-base.ts:162
+commonJsRequire @ runtime-utils.ts:389
+(anónimas) @ app-next-turbopack.ts:11
+(anónimas) @ app-bootstrap.ts:79
+loadScriptsInSequence @ app-bootstrap.ts:23
+appBootstrap @ app-bootstrap.ts:61
+module evaluation @ app-next-turbopack.ts:10
+(anónimas) @ dev-base.ts:244
+runModuleExecutionHooks @ dev-base.ts:278
+instantiateModule @ dev-base.ts:238
+getOrInstantiateRuntimeModule @ dev-base.ts:128
+registerChunk @ runtime-backend-dom.ts:57
+await in registerChunk
+registerChunk @ dev-base.ts:1149
+(anónimas) @ dev-backend-dom.ts:126
+(anónimas) @ dev-backend-dom.ts:126
+product-image.tsx:13 Image with src "/perfumes/jay-soundo-r59locia7KA-unsplash.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+warn @ forward-logs-shared.ts:95
+warnOnce @ warn-once.ts:6
+getImgProps @ get-img-props.ts:564
+(anónimas) @ image-component.tsx:402
+react_stack_bottom_frame @ react-dom-client.development.js:28038
+renderWithHooks @ react-dom-client.development.js:7984
+updateForwardRef @ react-dom-client.development.js:10059
+beginWork @ react-dom-client.development.js:12475
+runWithFiberInDEV @ react-dom-client.development.js:986
+performUnitOfWork @ react-dom-client.development.js:18997
+workLoopSync @ react-dom-client.development.js:18825
+renderRootSync @ react-dom-client.development.js:18806
+performWorkOnRoot @ react-dom-client.development.js:17914
+performWorkOnRootViaSchedulerTask @ react-dom-client.development.js:20384
+performWorkUntilDeadline @ scheduler.development.js:45
+<ForwardRef>
+exports.jsxDEV @ react-jsx-dev-runtime.development.js:342
+ProductImage @ product-image.tsx:13
+react_stack_bottom_frame @ react-dom-client.development.js:28038
+renderWithHooksAgain @ react-dom-client.development.js:8084
+renderWithHooks @ react-dom-client.development.js:7996
+updateFunctionComponent @ react-dom-client.development.js:10501
+beginWork @ react-dom-client.development.js:12136
+runWithFiberInDEV @ react-dom-client.development.js:986
+performUnitOfWork @ react-dom-client.development.js:18997
+workLoopSync @ react-dom-client.development.js:18825
+renderRootSync @ react-dom-client.development.js:18806
+performWorkOnRoot @ react-dom-client.development.js:17914
+performWorkOnRootViaSchedulerTask @ react-dom-client.development.js:20384
+performWorkUntilDeadline @ scheduler.development.js:45
+<ProductImage>
+exports.jsxDEV @ react-jsx-dev-runtime.development.js:342
+ProductCard @ index.tsx:27
+react_stack_bottom_frame @ react-dom-client.development.js:28038
+renderWithHooksAgain @ react-dom-client.development.js:8084
+renderWithHooks @ react-dom-client.development.js:7996
+updateFunctionComponent @ react-dom-client.development.js:10501
+beginWork @ react-dom-client.development.js:12136
+runWithFiberInDEV @ react-dom-client.development.js:986
+performUnitOfWork @ react-dom-client.development.js:18997
+workLoopSync @ react-dom-client.development.js:18825
+renderRootSync @ react-dom-client.development.js:18806
+performWorkOnRoot @ react-dom-client.development.js:17914
+performWorkOnRootViaSchedulerTask @ react-dom-client.development.js:20384
+performWorkUntilDeadline @ scheduler.development.js:45
+<ProductCard>
+exports.jsxDEV @ react-jsx-dev-runtime.development.js:342
+(anónimas) @ product-list-content.tsx:118
+ProductListContent @ product-list-content.tsx:117
+react_stack_bottom_frame @ react-dom-client.development.js:28038
+renderWithHooksAgain @ react-dom-client.development.js:8084
+renderWithHooks @ react-dom-client.development.js:7996
+updateFunctionComponent @ react-dom-client.development.js:10501
+beginWork @ react-dom-client.development.js:12085
+runWithFiberInDEV @ react-dom-client.development.js:986
+performUnitOfWork @ react-dom-client.development.js:18997
+workLoopSync @ react-dom-client.development.js:18825
+renderRootSync @ react-dom-client.development.js:18806
+performWorkOnRoot @ react-dom-client.development.js:17914
+performWorkOnRootViaSchedulerTask @ react-dom-client.development.js:20384
+performWorkUntilDeadline @ scheduler.development.js:45
+"use client"
+ProductList @ product-list.tsx:45
+initializeElement @ react-server-dom-turbopack-client.browser.development.js:1941
+(anónimas) @ react-server-dom-turbopack-client.browser.development.js:4623
+initializeModelChunk @ react-server-dom-turbopack-client.browser.development.js:1828
+readChunk @ react-server-dom-turbopack-client.browser.development.js:1450
+react_stack_bottom_frame @ react-dom-client.development.js:28145
+resolveLazy @ react-dom-client.development.js:6320
+reconcileChildFibersImpl @ react-dom-client.development.js:7291
+(anónimas) @ react-dom-client.development.js:7410
+reconcileChildren @ react-dom-client.development.js:10036
+updateOffscreenComponent @ react-dom-client.development.js:10244
+beginWork @ react-dom-client.development.js:12588
+runWithFiberInDEV @ react-dom-client.development.js:989
+performUnitOfWork @ react-dom-client.development.js:18997
+workLoopSync @ react-dom-client.development.js:18825
+renderRootSync @ react-dom-client.development.js:18806
+performWorkOnRoot @ react-dom-client.development.js:17914
+performWorkOnRootViaSchedulerTask @ react-dom-client.development.js:20384
+performWorkUntilDeadline @ scheduler.development.js:45
+<ProductList>
+Shop @ page.tsx:36
+initializeFakeTask @ react-server-dom-turbopack-client.browser.development.js:3392
+initializeDebugInfo @ react-server-dom-turbopack-client.browser.development.js:3415
+initializeDebugChunk @ react-server-dom-turbopack-client.browser.development.js:1772
+processFullStringRow @ react-server-dom-turbopack-client.browser.development.js:4389
+processFullBinaryRow @ react-server-dom-turbopack-client.browser.development.js:4300
+processBinaryChunk @ react-server-dom-turbopack-client.browser.development.js:4523
+progress @ react-server-dom-turbopack-client.browser.development.js:4799
+<Shop>
+Function.all @ VM4162 <anonymous>:1
+Function.all @ VM4162 <anonymous>:1
+initializeFakeTask @ react-server-dom-turbopack-client.browser.development.js:3390
+initializeDebugInfo @ react-server-dom-turbopack-client.browser.development.js:3415
+initializeDebugChunk @ react-server-dom-turbopack-client.browser.development.js:1772
+processFullStringRow @ react-server-dom-turbopack-client.browser.development.js:4389
+processFullBinaryRow @ react-server-dom-turbopack-client.browser.development.js:4300
+processBinaryChunk @ react-server-dom-turbopack-client.browser.development.js:4523
+progress @ react-server-dom-turbopack-client.browser.development.js:4799
+"use server"
+ResponseInstance @ react-server-dom-turbopack-client.browser.development.js:2784
+createResponseFromOptions @ react-server-dom-turbopack-client.browser.development.js:4660
+exports.createFromReadableStream @ react-server-dom-turbopack-client.browser.development.js:5064
+module evaluation @ app-index.tsx:211
+(anónimas) @ dev-base.ts:244
+runModuleExecutionHooks @ dev-base.ts:278
+instantiateModule @ dev-base.ts:238
+getOrInstantiateModuleFromParent @ dev-base.ts:162
+commonJsRequire @ runtime-utils.ts:389
+(anónimas) @ app-next-turbopack.ts:11
+(anónimas) @ app-bootstrap.ts:79
+loadScriptsInSequence @ app-bootstrap.ts:23
+appBootstrap @ app-bootstrap.ts:61
+module evaluation @ app-next-turbopack.ts:10
+(anónimas) @ dev-base.ts:244
+runModuleExecutionHooks @ dev-base.ts:278
+instantiateModule @ dev-base.ts:238
+getOrInstantiateRuntimeModule @ dev-base.ts:128
+registerChunk @ runtime-backend-dom.ts:57
+await in registerChunk
+registerChunk @ dev-base.ts:1149
+(anónimas) @ dev-backend-dom.ts:126
+(anónimas) @ dev-backend-dom.ts:126
+react-dom-client.development.js:5530 Uncaught Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <SegmentViewNode type="layout" pagePath="layout.tsx">
+      <SegmentTrieNode>
+      <link>
+      <script>
+      <script>
+      <script>
+      <script>
+      <script>
+      <script>
+      <script>
+      <script>
+      <RootLayout>
+        <html lang="es">
+          <body className="geist_a715..." suppressHydrationWarning={true}>
+            <V0Provider isV0={false}>
+              <SessionProvider>
+                <SessionProvider>
+                  <CartProvider>
+                    <NuqsAdapter>
+                      <Suspense>
++                     <main data-vaul-drawer-wrapper="true">
+-                     <header
+-                       className="grid fixed top-0 left-0 z-50 grid-cols-3 items-start w-full p-sides md:grid-cols-12..."
+-                     >
+                      ...
+
+    at throwOnHydrationMismatch (react-dom-client.development.js:5530:11)
+    at beginWork (react-dom-client.development.js:12385:17)
+    at replayBeginWork (react-dom-client.development.js:19054:24)
+    at runWithFiberInDEV (react-dom-client.development.js:986:30)
+    at replaySuspendedUnitOfWork (react-dom-client.development.js:19018:18)
+    at renderRootConcurrent (react-dom-client.development.js:18901:21)
+    at performWorkOnRoot (react-dom-client.development.js:17834:11)
+    at performWorkOnRootViaSchedulerTask (react-dom-client.development.js:20384:7)
+    at MessagePort.performWorkUntilDeadline (scheduler.development.js:45:48)
+throwOnHydrationMismatch @ react-dom-client.development.js:5530
+beginWork @ react-dom-client.development.js:12385
+replayBeginWork @ react-dom-client.development.js:19054
+runWithFiberInDEV @ react-dom-client.development.js:986
+replaySuspendedUnitOfWork @ react-dom-client.development.js:19018
+renderRootConcurrent @ react-dom-client.development.js:18901
+performWorkOnRoot @ react-dom-client.development.js:17834
+performWorkOnRootViaSchedulerTask @ react-dom-client.development.js:20384
+performWorkUntilDeadline @ scheduler.development.js:45
+<main>
+RootLayout @ layout.tsx:66
+initializeElement @ react-server-dom-turbopack-client.browser.development.js:1941
+(anónimas) @ react-server-dom-turbopack-client.browser.development.js:4623
+initializeModelChunk @ react-server-dom-turbopack-client.browser.development.js:1828
+readChunk @ react-server-dom-turbopack-client.browser.development.js:1450
+react_stack_bottom_frame @ react-dom-client.development.js:28145
+resolveLazy @ react-dom-client.development.js:6320
+createChild @ react-dom-client.development.js:6672
+reconcileChildrenArray @ react-dom-client.development.js:6979
+reconcileChildFibersImpl @ react-dom-client.development.js:7305
+(anónimas) @ react-dom-client.development.js:7410
+reconcileChildren @ react-dom-client.development.js:10036
+beginWork @ react-dom-client.development.js:12486
+runWithFiberInDEV @ react-dom-client.development.js:986
+performUnitOfWork @ react-dom-client.development.js:18997
+workLoopConcurrentByScheduler @ react-dom-client.development.js:18991
+renderRootConcurrent @ react-dom-client.development.js:18973
+performWorkOnRoot @ react-dom-client.development.js:17834
+performWorkOnRootViaSchedulerTask @ react-dom-client.development.js:20384
+performWorkUntilDeadline @ scheduler.development.js:45
+<RootLayout>
+initializeFakeTask @ react-server-dom-turbopack-client.browser.development.js:3390
+initializeDebugInfo @ react-server-dom-turbopack-client.browser.development.js:3415
+initializeDebugChunk @ react-server-dom-turbopack-client.browser.development.js:1772
+processFullStringRow @ react-server-dom-turbopack-client.browser.development.js:4389
+processFullBinaryRow @ react-server-dom-turbopack-client.browser.development.js:4300
+processBinaryChunk @ react-server-dom-turbopack-client.browser.development.js:4523
+progress @ react-server-dom-turbopack-client.browser.development.js:4799
+"use server"
+ResponseInstance @ react-server-dom-turbopack-client.browser.development.js:2784
+createResponseFromOptions @ react-server-dom-turbopack-client.browser.development.js:4660
+exports.createFromReadableStream @ react-server-dom-turbopack-client.browser.development.js:5064
+module evaluation @ app-index.tsx:211
+(anónimas) @ dev-base.ts:244
+runModuleExecutionHooks @ dev-base.ts:278
+instantiateModule @ dev-base.ts:238
+getOrInstantiateModuleFromParent @ dev-base.ts:162
+commonJsRequire @ runtime-utils.ts:389
+(anónimas) @ app-next-turbopack.ts:11
+(anónimas) @ app-bootstrap.ts:79
+loadScriptsInSequence @ app-bootstrap.ts:23
+appBootstrap @ app-bootstrap.ts:61
+module evaluation @ app-next-turbopack.ts:10
+(anónimas) @ dev-base.ts:244
+runModuleExecutionHooks @ dev-base.ts:278
+instantiateModule @ dev-base.ts:238
+getOrInstantiateRuntimeModule @ dev-base.ts:128
+registerChunk @ runtime-backend-dom.ts:57
+await in registerChunk
+registerChunk @ dev-base.ts:1149
+(anónimas) @ dev-backend-dom.ts:126
+(anónimas) @ dev-backend-dom.ts:126
+product-list-content.tsx:87 [SCROLL BLOCK] elements with overflow hidden/clip:
+product-list-content.tsx:88  - DIV: rounded-full ring ring-foreground/5 relative overflow-hidden bg-foreground/15 an
+product-list-content.tsx:88  - DIV: rounded-full ring ring-foreground/5 relative overflow-hidden bg-foreground/15 an
+product-list-content.tsx:88  - DIV: rounded-full ring ring-foreground/5 relative overflow-hidden bg-foreground/15 an
+product-list-content.tsx:88  - DIV: rounded-full ring ring-foreground/5 relative overflow-hidden bg-foreground/15 an
+product-list-content.tsx:88  - DIV: pt-top-spacing bg-background md:hidden overflow-x-clip
+product-list-content.tsx:88  - svg: [object SVGAnimatedString]
+product-list-content.tsx:88  - svg: [object SVGAnimatedString]
+product-list-content.tsx:88  - svg: [object SVGAnimatedString]
+product-list-content.tsx:88  - DIV: relative w-full aspect-[3/4] md:aspect-square bg-muted group overflow-hidden tou
+product-list-content.tsx:88  - IMG: object-cover size-full
+product-list-content.tsx:88  - svg: [object SVGAnimatedString]
+product-list-content.tsx:88  - DIV: relative w-full aspect-[3/4] md:aspect-square bg-muted group overflow-hidden tou
+product-list-content.tsx:88  - IMG: object-cover size-full
+product-list-content.tsx:88  - svg: [object SVGAnimatedString]
+product-list-content.tsx:88  - DIV: relative w-full aspect-[3/4] md:aspect-square bg-muted group overflow-hidden tou
+product-list-content.tsx:88  - IMG: object-cover size-full
+product-list-content.tsx:88  - svg: [object SVGAnimatedString]
+product-list-content.tsx:88  - DIV: relative w-full aspect-[3/4] md:aspect-square bg-muted group overflow-hidden tou
+product-list-content.tsx:88  - IMG: object-cover size-full
+product-list-content.tsx:88  - svg: [object SVGAnimatedString]
+product-list-content.tsx:88  - DIV: relative w-full aspect-[3/4] md:aspect-square bg-muted group overflow-hidden tou
+product-list-content.tsx:88  - IMG: object-cover size-full
+product-list-content.tsx:88  - svg: [object SVGAnimatedString]
+product-list-content.tsx:88  - DIV: relative w-full aspect-[3/4] md:aspect-square bg-muted group overflow-hidden tou
+product-list-content.tsx:88  - IMG: object-cover size-full
+product-list-content.tsx:88  - svg: [object SVGAnimatedString]
+product-list-content.tsx:88  - DIV: relative w-full aspect-[3/4] md:aspect-square bg-muted group overflow-hidden tou
+product-list-content.tsx:88  - IMG: object-cover size-full
+product-list-content.tsx:88  - svg: [object SVGAnimatedString]
+product-list-content.tsx:88  - DIV: relative w-full aspect-[3/4] md:aspect-square bg-muted group overflow-hidden tou
+product-list-content.tsx:88  - IMG: object-cover size-full
+product-list-content.tsx:88  - svg: [object SVGAnimatedString]
+product-list-content.tsx:88  - DIV: relative w-full aspect-[3/4] md:aspect-square bg-muted group overflow-hidden tou
+product-list-content.tsx:88  - IMG: object-cover size-full
+product-list-content.tsx:88  - svg: [object SVGAnimatedString]
+product-list-content.tsx:88  - DIV: relative w-full aspect-[3/4] md:aspect-square bg-muted group overflow-hidden tou
+product-list-content.tsx:88  - IMG: object-cover size-full
+product-list-content.tsx:88  - svg: [object SVGAnimatedString]
+product-list-content.tsx:88  - DIV: relative w-full aspect-[3/4] md:aspect-square bg-muted group overflow-hidden tou
+product-list-content.tsx:88  - IMG: object-cover size-full
+product-list-content.tsx:88  - svg: [object SVGAnimatedString]
+product-list-content.tsx:88  - DIV: relative w-full aspect-[3/4] md:aspect-square bg-muted group overflow-hidden tou
+product-list-content.tsx:88  - IMG: object-cover size-full
+product-list-content.tsx:88  - svg: [object SVGAnimatedString]
+product-list-content.tsx:89 [SCROLL BLOCK] body: visible
+product-list-content.tsx:90 [SCROLL BLOCK] html: visible
+product-list-content.tsx:87 [SCROLL BLOCK] elements with overflow hidden/clip:
+product-list-content.tsx:88  - DIV: rounded-full ring ring-foreground/5 relative overflow-hidden bg-foreground/15 an
+product-list-content.tsx:88  - DIV: rounded-full ring ring-foreground/5 relative overflow-hidden bg-foreground/15 an
+product-list-content.tsx:88  - DIV: rounded-full ring ring-foreground/5 relative overflow-hidden bg-foreground/15 an
+product-list-content.tsx:88  - DIV: rounded-full ring ring-foreground/5 relative overflow-hidden bg-foreground/15 an
+product-list-content.tsx:88  - DIV: pt-top-spacing bg-background md:hidden overflow-x-clip
+product-list-content.tsx:88  - svg: [object SVGAnimatedString]
+product-list-content.tsx:88  - svg: [object SVGAnimatedString]
+product-list-content.tsx:88  - svg: [object SVGAnimatedString]
+product-list-content.tsx:88  - DIV: relative w-full aspect-[3/4] md:aspect-square bg-muted group overflow-hidden tou
+product-list-content.tsx:88  - IMG: object-cover size-full
+product-list-content.tsx:88  - svg: [object SVGAnimatedString]
+product-list-content.tsx:88  - DIV: relative w-full aspect-[3/4] md:aspect-square bg-muted group overflow-hidden tou
+product-list-content.tsx:88  - IMG: object-cover size-full
+product-list-content.tsx:88  - svg: [object SVGAnimatedString]
+product-list-content.tsx:88  - DIV: relative w-full aspect-[3/4] md:aspect-square bg-muted group overflow-hidden tou
+product-list-content.tsx:88  - IMG: object-cover size-full
+product-list-content.tsx:88  - svg: [object SVGAnimatedString]
+product-list-content.tsx:88  - DIV: relative w-full aspect-[3/4] md:aspect-square bg-muted group overflow-hidden tou
+product-list-content.tsx:88  - IMG: object-cover size-full
+product-list-content.tsx:88  - svg: [object SVGAnimatedString]
+product-list-content.tsx:88  - DIV: relative w-full aspect-[3/4] md:aspect-square bg-muted group overflow-hidden tou
+product-list-content.tsx:88  - IMG: object-cover size-full
+product-list-content.tsx:88  - svg: [object SVGAnimatedString]
+product-list-content.tsx:88  - DIV: relative w-full aspect-[3/4] md:aspect-square bg-muted group overflow-hidden tou
+product-list-content.tsx:88  - IMG: object-cover size-full
+product-list-content.tsx:88  - svg: [object SVGAnimatedString]
+product-list-content.tsx:88  - DIV: relative w-full aspect-[3/4] md:aspect-square bg-muted group overflow-hidden tou
+product-list-content.tsx:88  - IMG: object-cover size-full
+product-list-content.tsx:88  - svg: [object SVGAnimatedString]
+product-list-content.tsx:88  - DIV: relative w-full aspect-[3/4] md:aspect-square bg-muted group overflow-hidden tou
+product-list-content.tsx:88  - IMG: object-cover size-full
+product-list-content.tsx:88  - svg: [object SVGAnimatedString]
+product-list-content.tsx:88  - DIV: relative w-full aspect-[3/4] md:aspect-square bg-muted group overflow-hidden tou
+product-list-content.tsx:88  - IMG: object-cover size-full
+product-list-content.tsx:88  - svg: [object SVGAnimatedString]
+product-list-content.tsx:88  - DIV: relative w-full aspect-[3/4] md:aspect-square bg-muted group overflow-hidden tou
+product-list-content.tsx:88  - IMG: object-cover size-full
+product-list-content.tsx:88  - svg: [object SVGAnimatedString]
+product-list-content.tsx:88  - DIV: relative w-full aspect-[3/4] md:aspect-square bg-muted group overflow-hidden tou
+product-list-content.tsx:88  - IMG: object-cover size-full
+product-list-content.tsx:88  - svg: [object SVGAnimatedString]
+product-list-content.tsx:88  - DIV: relative w-full aspect-[3/4] md:aspect-square bg-muted group overflow-hidden tou
+product-list-content.tsx:88  - IMG: object-cover size-full
+product-list-content.tsx:88  - svg: [object SVGAnimatedString]
+product-list-content.tsx:89 [SCROLL BLOCK] body: visible
+product-list-content.tsx:90 [SCROLL BLOCK] html: visible

@@ -4,71 +4,71 @@ import { ProductCollectionSortKey, ProductSortKey, ShopifyCart, ShopifyCollectio
 const mockCollections: ShopifyCollection[] = [
   {
     id: 'collection-1',
-    title: 'Fragancias Florales',
+    title: 'Resinas & Bálsamos',
     handle: 'florales',
-    description: 'Perfumes con notas florales delicadas y románticas',
+    description: 'Mirra, benjuí, opopónax. Materias que arden lento y dejan huella.',
   },
   {
     id: 'collection-2',
-    title: 'Fragancias Amaderadas',
+    title: 'Cuero & Humo',
     handle: 'amaderadas',
-    description: 'Perfumes con notas de madera, cálidas y sofisticadas',
+    description: 'Cuero curtido, tabaco negro, birch tar. Sin concesiones.',
   },
   {
     id: 'collection-3',
-    title: 'Fragancias Cítricas',
+    title: 'Raíces & Tierra',
     handle: 'citricas',
-    description: 'Perfumes frescos y energizantes con notas cítricas',
+    description: 'Vetiver, pachulí, tierra húmeda. Lo que está debajo.',
   },
   {
     id: 'collection-4',
-    title: 'Fragancias Orientales',
+    title: 'Oud & Especias',
     handle: 'orientales',
-    description: 'Perfumes exóticos con especias y resinas',
+    description: 'Oud, azafrán, pimienta. Densidad que no pide permiso.',
   },
 ];
 
 const mockProducts: ShopifyProduct[] = [
   {
     id: 'product-1',
-    title: 'Rosa Eterna',
-    description: 'Una fragancia floral exquisita que captura la esencia de rosas frescas al amanecer. Notas de salida de rosa damascena, corazón de peonía y fondo de almizcle blanco.',
-    descriptionHtml: '<p>Una fragancia floral exquisita que captura la esencia de rosas frescas al amanecer. Notas de salida de rosa damascena, corazón de peonía y fondo de almizcle blanco.</p>',
-    handle: 'rosa-eterna',
-    productType: 'Floral',
+    title: 'Mirra Negra',
+    description: 'Mirra cruda, opopónax y benjuí. Una resina que no se explica, se lleva. Fondo de tierra seca y labdanum que persiste horas después de que te fuiste.',
+    descriptionHtml: '<p>Mirra cruda, opopónax y benjuí. Una resina que no se explica, se lleva. Fondo de tierra seca y labdanum que persiste horas después de que te fuiste.</p>',
+    handle: 'mirra-negra',
+    productType: 'Resinas & Bálsamos',
     options: [
       { id: 'size', name: 'Tamaño', values: ['30ml', '50ml', '100ml'] }
     ],
     images: {
       edges: [
-        { node: { url: 'https://images.unsplash.com/photo-1541643600914-78b084683601?w=800&h=800&fit=crop', altText: 'Rosa Eterna Perfume' } },
-        { node: { url: 'https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800&h=800&fit=crop', altText: 'Rosa Eterna Detalle' } },
+        { node: { url: '/perfumes/tron-le-UNo5_hVWe9E-unsplash.jpg', altText: 'Mirra Negra' } },
+        { node: { url: '/perfumes/tron-le-5JFX82Pk5-I-unsplash.jpg', altText: 'Mirra Negra Detalle' } },
       ]
     },
-    priceRange: { minVariantPrice: { amount: '89.00', currencyCode: 'USD' } },
-    compareAtPriceRange: { minVariantPrice: { amount: '110.00', currencyCode: 'USD' } },
+    priceRange: { minVariantPrice: { amount: '115.00', currencyCode: 'USD' } },
+    compareAtPriceRange: { minVariantPrice: { amount: '0', currencyCode: 'USD' } },
     variants: {
       edges: [
-        { node: { id: 'variant-1-1', title: '30ml', price: { amount: '89.00', currencyCode: 'USD' }, availableForSale: true, selectedOptions: [{ name: 'Tamaño', value: '30ml' }] } },
-        { node: { id: 'variant-1-2', title: '50ml', price: { amount: '129.00', currencyCode: 'USD' }, availableForSale: true, selectedOptions: [{ name: 'Tamaño', value: '50ml' }] } },
-        { node: { id: 'variant-1-3', title: '100ml', price: { amount: '189.00', currencyCode: 'USD' }, availableForSale: true, selectedOptions: [{ name: 'Tamaño', value: '100ml' }] } },
+        { node: { id: 'variant-1-1', title: '30ml', price: { amount: '115.00', currencyCode: 'USD' }, availableForSale: true, selectedOptions: [{ name: 'Tamaño', value: '30ml' }] } },
+        { node: { id: 'variant-1-2', title: '50ml', price: { amount: '165.00', currencyCode: 'USD' }, availableForSale: true, selectedOptions: [{ name: 'Tamaño', value: '50ml' }] } },
+        { node: { id: 'variant-1-3', title: '100ml', price: { amount: '230.00', currencyCode: 'USD' }, availableForSale: true, selectedOptions: [{ name: 'Tamaño', value: '100ml' }] } },
       ]
     }
   },
   {
     id: 'product-2',
-    title: 'Noir Absolu',
-    description: 'Un perfume amaderado intenso y misterioso. Notas de oud, sándalo, vetiver y un toque de vainilla negra que deja una estela inolvidable.',
-    descriptionHtml: '<p>Un perfume amaderado intenso y misterioso. Notas de oud, sándalo, vetiver y un toque de vainilla negra que deja una estela inolvidable.</p>',
-    handle: 'noir-absolu',
-    productType: 'Amaderado',
+    title: 'Cuero Crudo',
+    description: 'Birch tar, cuero sin curtir, aldehídos ahumados. No es delicado. Es la cosa más honesta que puedes ponerte.',
+    descriptionHtml: '<p>Birch tar, cuero sin curtir, aldehídos ahumados. No es delicado. Es la cosa más honesta que puedes ponerte.</p>',
+    handle: 'cuero-crudo',
+    productType: 'Cuero & Humo',
     options: [
       { id: 'size', name: 'Tamaño', values: ['30ml', '50ml', '100ml'] }
     ],
     images: {
       edges: [
-        { node: { url: 'https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800&h=800&fit=crop', altText: 'Noir Absolu Perfume' } },
-        { node: { url: 'https://images.unsplash.com/photo-1619994403073-2cec844b8e63?w=800&h=800&fit=crop', altText: 'Noir Absolu Detalle' } },
+        { node: { url: '/perfumes/jay-soundo-r59locia7KA-unsplash.jpg', altText: 'Cuero Crudo' } },
+        { node: { url: '/perfumes/jay-soundo-QkC2gICf0zc-unsplash.jpg', altText: 'Cuero Crudo Detalle' } },
       ]
     },
     priceRange: { minVariantPrice: { amount: '149.00', currencyCode: 'USD' } },
@@ -83,96 +83,96 @@ const mockProducts: ShopifyProduct[] = [
   },
   {
     id: 'product-3',
-    title: 'Citrus Sunrise',
-    description: 'Frescura mediterránea en cada gota. Bergamota italiana, limón de Amalfi, naranja sanguina y un fondo de cedro blanco para una experiencia revitalizante.',
-    descriptionHtml: '<p>Frescura mediterránea en cada gota. Bergamota italiana, limón de Amalfi, naranja sanguina y un fondo de cedro blanco para una experiencia revitalizante.</p>',
-    handle: 'citrus-sunrise',
-    productType: 'Cítrico',
+    title: 'Vetiver / Tierra',
+    description: 'Vetiver de Haití sin filtrar. Raíz, humedad, arcilla. Una fragancia que huele a lo que está debajo de todo lo demás.',
+    descriptionHtml: '<p>Vetiver de Haití sin filtrar. Raíz, humedad, arcilla. Una fragancia que huele a lo que está debajo de todo lo demás.</p>',
+    handle: 'vetiver-tierra',
+    productType: 'Raíces & Tierra',
     options: [
       { id: 'size', name: 'Tamaño', values: ['30ml', '50ml', '100ml'] }
     ],
     images: {
       edges: [
-        { node: { url: 'https://images.unsplash.com/photo-1595425970377-c9703cf48b6d?w=800&h=800&fit=crop', altText: 'Citrus Sunrise Perfume' } },
-        { node: { url: 'https://images.unsplash.com/photo-1590736969955-71cc94901144?w=800&h=800&fit=crop', altText: 'Citrus Sunrise Detalle' } },
-      ]
-    },
-    priceRange: { minVariantPrice: { amount: '75.00', currencyCode: 'USD' } },
-    compareAtPriceRange: { minVariantPrice: { amount: '0', currencyCode: 'USD' } },
-    variants: {
-      edges: [
-        { node: { id: 'variant-3-1', title: '30ml', price: { amount: '75.00', currencyCode: 'USD' }, availableForSale: true, selectedOptions: [{ name: 'Tamaño', value: '30ml' }] } },
-        { node: { id: 'variant-3-2', title: '50ml', price: { amount: '110.00', currencyCode: 'USD' }, availableForSale: true, selectedOptions: [{ name: 'Tamaño', value: '50ml' }] } },
-        { node: { id: 'variant-3-3', title: '100ml', price: { amount: '159.00', currencyCode: 'USD' }, availableForSale: true, selectedOptions: [{ name: 'Tamaño', value: '100ml' }] } },
-      ]
-    }
-  },
-  {
-    id: 'product-4',
-    title: 'Ámbar Oriental',
-    description: 'Un viaje sensorial a tierras lejanas. Ámbar dorado, incienso, cardamomo y pachulí se entrelazan en esta fragancia exótica y seductora.',
-    descriptionHtml: '<p>Un viaje sensorial a tierras lejanas. Ámbar dorado, incienso, cardamomo y pachulí se entrelazan en esta fragancia exótica y seductora.</p>',
-    handle: 'ambar-oriental',
-    productType: 'Oriental',
-    options: [
-      { id: 'size', name: 'Tamaño', values: ['30ml', '50ml', '100ml'] }
-    ],
-    images: {
-      edges: [
-        { node: { url: 'https://images.unsplash.com/photo-1587017539504-67cfbddac569?w=800&h=800&fit=crop', altText: 'Ámbar Oriental Perfume' } },
-        { node: { url: 'https://images.unsplash.com/photo-1608528577891-eb055944f2e7?w=800&h=800&fit=crop', altText: 'Ámbar Oriental Detalle' } },
-      ]
-    },
-    priceRange: { minVariantPrice: { amount: '125.00', currencyCode: 'USD' } },
-    compareAtPriceRange: { minVariantPrice: { amount: '150.00', currencyCode: 'USD' } },
-    variants: {
-      edges: [
-        { node: { id: 'variant-4-1', title: '30ml', price: { amount: '125.00', currencyCode: 'USD' }, availableForSale: true, selectedOptions: [{ name: 'Tamaño', value: '30ml' }] } },
-        { node: { id: 'variant-4-2', title: '50ml', price: { amount: '175.00', currencyCode: 'USD' }, availableForSale: true, selectedOptions: [{ name: 'Tamaño', value: '50ml' }] } },
-        { node: { id: 'variant-4-3', title: '100ml', price: { amount: '245.00', currencyCode: 'USD' }, availableForSale: true, selectedOptions: [{ name: 'Tamaño', value: '100ml' }] } },
-      ]
-    }
-  },
-  {
-    id: 'product-5',
-    title: 'Jazmín Nocturno',
-    description: 'El encanto del jazmín bajo la luna. Jazmín sambac, tuberosa, ylang-ylang y un suave fondo de musgo blanco crean una fragancia floral hipnótica.',
-    descriptionHtml: '<p>El encanto del jazmín bajo la luna. Jazmín sambac, tuberosa, ylang-ylang y un suave fondo de musgo blanco crean una fragancia floral hipnótica.</p>',
-    handle: 'jazmin-nocturno',
-    productType: 'Floral',
-    options: [
-      { id: 'size', name: 'Tamaño', values: ['30ml', '50ml', '100ml'] }
-    ],
-    images: {
-      edges: [
-        { node: { url: 'https://images.unsplash.com/photo-1588405748880-12d1d2a59f75?w=800&h=800&fit=crop', altText: 'Jazmín Nocturno Perfume' } },
-        { node: { url: 'https://images.unsplash.com/photo-1547887538-e3a2f32cb1cc?w=800&h=800&fit=crop', altText: 'Jazmín Nocturno Detalle' } },
+        { node: { url: '/perfumes/mahbod-akhzami-ao17WB4tCTQ-unsplash.jpg', altText: 'Vetiver Tierra' } },
+        { node: { url: '/perfumes/cosmin-ursea-WzP_9jJ16gQ-unsplash.jpg', altText: 'Vetiver Tierra Detalle' } },
       ]
     },
     priceRange: { minVariantPrice: { amount: '95.00', currencyCode: 'USD' } },
     compareAtPriceRange: { minVariantPrice: { amount: '0', currencyCode: 'USD' } },
     variants: {
       edges: [
-        { node: { id: 'variant-5-1', title: '30ml', price: { amount: '95.00', currencyCode: 'USD' }, availableForSale: true, selectedOptions: [{ name: 'Tamaño', value: '30ml' }] } },
-        { node: { id: 'variant-5-2', title: '50ml', price: { amount: '139.00', currencyCode: 'USD' }, availableForSale: true, selectedOptions: [{ name: 'Tamaño', value: '50ml' }] } },
-        { node: { id: 'variant-5-3', title: '100ml', price: { amount: '199.00', currencyCode: 'USD' }, availableForSale: true, selectedOptions: [{ name: 'Tamaño', value: '100ml' }] } },
+        { node: { id: 'variant-3-1', title: '30ml', price: { amount: '95.00', currencyCode: 'USD' }, availableForSale: true, selectedOptions: [{ name: 'Tamaño', value: '30ml' }] } },
+        { node: { id: 'variant-3-2', title: '50ml', price: { amount: '139.00', currencyCode: 'USD' }, availableForSale: true, selectedOptions: [{ name: 'Tamaño', value: '50ml' }] } },
+        { node: { id: 'variant-3-3', title: '100ml', price: { amount: '195.00', currencyCode: 'USD' }, availableForSale: true, selectedOptions: [{ name: 'Tamaño', value: '100ml' }] } },
       ]
     }
   },
   {
-    id: 'product-6',
-    title: 'Cedro & Cuero',
-    description: 'Masculinidad refinada en estado puro. Cedro del Atlas, cuero italiano, pimienta negra y un toque de tabaco rubio para el hombre sofisticado.',
-    descriptionHtml: '<p>Masculinidad refinada en estado puro. Cedro del Atlas, cuero italiano, pimienta negra y un toque de tabaco rubio para el hombre sofisticado.</p>',
-    handle: 'cedro-cuero',
-    productType: 'Amaderado',
+    id: 'product-4',
+    title: 'Azafrán Oscuro',
+    description: 'Azafrán iraní, oud fermentado, pimienta de Cubeba. Una apertura que golpea y un fondo que no se va. Para quienes no necesitan explicar lo que llevan puesto.',
+    descriptionHtml: '<p>Azafrán iraní, oud fermentado, pimienta de Cubeba. Una apertura que golpea y un fondo que no se va. Para quienes no necesitan explicar lo que llevan puesto.</p>',
+    handle: 'azafran-oscuro',
+    productType: 'Oud & Especias',
     options: [
       { id: 'size', name: 'Tamaño', values: ['30ml', '50ml', '100ml'] }
     ],
     images: {
       edges: [
-        { node: { url: 'https://images.unsplash.com/photo-1523293182086-7651a899d37f?w=800&h=800&fit=crop', altText: 'Cedro & Cuero Perfume' } },
-        { node: { url: 'https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=800&h=800&fit=crop', altText: 'Cedro & Cuero Detalle' } },
+        { node: { url: '/perfumes/chenbushi-Dxgp0wVQbLU-unsplash.jpg', altText: 'Azafrán Oscuro' } },
+        { node: { url: '/perfumes/pavlo-talpa-SIKp2vihB_s-unsplash.jpg', altText: 'Azafrán Oscuro Detalle' } },
+      ]
+    },
+    priceRange: { minVariantPrice: { amount: '185.00', currencyCode: 'USD' } },
+    compareAtPriceRange: { minVariantPrice: { amount: '220.00', currencyCode: 'USD' } },
+    variants: {
+      edges: [
+        { node: { id: 'variant-4-1', title: '30ml', price: { amount: '185.00', currencyCode: 'USD' }, availableForSale: true, selectedOptions: [{ name: 'Tamaño', value: '30ml' }] } },
+        { node: { id: 'variant-4-2', title: '50ml', price: { amount: '255.00', currencyCode: 'USD' }, availableForSale: true, selectedOptions: [{ name: 'Tamaño', value: '50ml' }] } },
+        { node: { id: 'variant-4-3', title: '100ml', price: { amount: '360.00', currencyCode: 'USD' }, availableForSale: true, selectedOptions: [{ name: 'Tamaño', value: '100ml' }] } },
+      ]
+    }
+  },
+  {
+    id: 'product-5',
+    title: 'Tonka / Incienso',
+    description: 'Tonka bean tostada, incienso de Omán, vetiver ahumado. Dulce solo en la distancia. De cerca, es otra cosa.',
+    descriptionHtml: '<p>Tonka bean tostada, incienso de Omán, vetiver ahumado. Dulce solo en la distancia. De cerca, es otra cosa.</p>',
+    handle: 'tonka-incienso',
+    productType: 'Resinas & Bálsamos',
+    options: [
+      { id: 'size', name: 'Tamaño', values: ['30ml', '50ml', '100ml'] }
+    ],
+    images: {
+      edges: [
+        { node: { url: '/perfumes/sonia-dauer-eTMMCz6JI6s-unsplash.jpg', altText: 'Tonka Incienso' } },
+        { node: { url: '/perfumes/tron-le-DH-qHdWsKYc-unsplash.jpg', altText: 'Tonka Incienso Detalle' } },
+      ]
+    },
+    priceRange: { minVariantPrice: { amount: '125.00', currencyCode: 'USD' } },
+    compareAtPriceRange: { minVariantPrice: { amount: '0', currencyCode: 'USD' } },
+    variants: {
+      edges: [
+        { node: { id: 'variant-5-1', title: '30ml', price: { amount: '125.00', currencyCode: 'USD' }, availableForSale: true, selectedOptions: [{ name: 'Tamaño', value: '30ml' }] } },
+        { node: { id: 'variant-5-2', title: '50ml', price: { amount: '175.00', currencyCode: 'USD' }, availableForSale: true, selectedOptions: [{ name: 'Tamaño', value: '50ml' }] } },
+        { node: { id: 'variant-5-3', title: '100ml', price: { amount: '245.00', currencyCode: 'USD' }, availableForSale: true, selectedOptions: [{ name: 'Tamaño', value: '100ml' }] } },
+      ]
+    }
+  },
+  {
+    id: 'product-6',
+    title: 'Tabaco Negro',
+    description: 'Tabaco Virginia oscuro, cuero viejo, pimienta roja y un hilo de ámbar gris. No es una fragancia que pide permiso para entrar.',
+    descriptionHtml: '<p>Tabaco Virginia oscuro, cuero viejo, pimienta roja y un hilo de ámbar gris. No es una fragancia que pide permiso para entrar.</p>',
+    handle: 'tabaco-negro',
+    productType: 'Cuero & Humo',
+    options: [
+      { id: 'size', name: 'Tamaño', values: ['30ml', '50ml', '100ml'] }
+    ],
+    images: {
+      edges: [
+        { node: { url: '/perfumes/beautinow-niche-perfume-CAqsBQ9kXko-unsplash.jpg', altText: 'Tabaco Negro' } },
+        { node: { url: '/perfumes/beautinow-niche-perfume-M_zlqkBJExM-unsplash.jpg', altText: 'Tabaco Negro Detalle' } },
       ]
     },
     priceRange: { minVariantPrice: { amount: '135.00', currencyCode: 'USD' } },
@@ -187,148 +187,148 @@ const mockProducts: ShopifyProduct[] = [
   },
   {
     id: 'product-7',
-    title: 'Brisa Marina',
-    description: 'El espíritu del océano capturado en un frasco. Notas acuáticas, sal marina, pomelo y madera flotante evocan la libertad de la costa.',
-    descriptionHtml: '<p>El espíritu del océano capturado en un frasco. Notas acuáticas, sal marina, pomelo y madera flotante evocan la libertad de la costa.</p>',
-    handle: 'brisa-marina',
-    productType: 'Cítrico',
+    title: 'Pachulí Crudo',
+    description: 'Pachulí sin procesar, raíz de iris, musgo de roble húmedo. La fragancia que usaban antes de que todo se volviera higienizado. Polarizante a propósito.',
+    descriptionHtml: '<p>Pachulí sin procesar, raíz de iris, musgo de roble húmedo. La fragancia que usaban antes de que todo se volviera higienizado. Polarizante a propósito.</p>',
+    handle: 'pachuli-crudo',
+    productType: 'Raíces & Tierra',
     options: [
       { id: 'size', name: 'Tamaño', values: ['30ml', '50ml', '100ml'] }
     ],
     images: {
       edges: [
-        { node: { url: 'https://images.unsplash.com/photo-1541643600914-78b084683601?w=800&h=800&fit=crop', altText: 'Brisa Marina Perfume' } },
-        { node: { url: 'https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800&h=800&fit=crop', altText: 'Brisa Marina Detalle' } },
+        { node: { url: '/perfumes/jay-soundo-aWEnLrHGu0M-unsplash.jpg', altText: 'Pachulí Crudo' } },
+        { node: { url: '/perfumes/jay-soundo-K0RHgO7dvYM-unsplash.jpg', altText: 'Pachulí Crudo Detalle' } },
       ]
     },
-    priceRange: { minVariantPrice: { amount: '85.00', currencyCode: 'USD' } },
-    compareAtPriceRange: { minVariantPrice: { amount: '99.00', currencyCode: 'USD' } },
+    priceRange: { minVariantPrice: { amount: '89.00', currencyCode: 'USD' } },
+    compareAtPriceRange: { minVariantPrice: { amount: '110.00', currencyCode: 'USD' } },
     variants: {
       edges: [
-        { node: { id: 'variant-7-1', title: '30ml', price: { amount: '85.00', currencyCode: 'USD' }, availableForSale: true, selectedOptions: [{ name: 'Tamaño', value: '30ml' }] } },
-        { node: { id: 'variant-7-2', title: '50ml', price: { amount: '125.00', currencyCode: 'USD' }, availableForSale: true, selectedOptions: [{ name: 'Tamaño', value: '50ml' }] } },
-        { node: { id: 'variant-7-3', title: '100ml', price: { amount: '179.00', currencyCode: 'USD' }, availableForSale: true, selectedOptions: [{ name: 'Tamaño', value: '100ml' }] } },
+        { node: { id: 'variant-7-1', title: '30ml', price: { amount: '89.00', currencyCode: 'USD' }, availableForSale: true, selectedOptions: [{ name: 'Tamaño', value: '30ml' }] } },
+        { node: { id: 'variant-7-2', title: '50ml', price: { amount: '129.00', currencyCode: 'USD' }, availableForSale: true, selectedOptions: [{ name: 'Tamaño', value: '50ml' }] } },
+        { node: { id: 'variant-7-3', title: '100ml', price: { amount: '185.00', currencyCode: 'USD' }, availableForSale: true, selectedOptions: [{ name: 'Tamaño', value: '100ml' }] } },
       ]
     }
   },
   {
     id: 'product-8',
-    title: 'Especias de Marrakech',
-    description: 'Un bazar de aromas en tu piel. Azafrán, canela, comino y rosa turca se mezclan con oud y ámbar en esta fragancia oriental inolvidable.',
-    descriptionHtml: '<p>Un bazar de aromas en tu piel. Azafrán, canela, comino y rosa turca se mezclan con oud y ámbar en esta fragancia oriental inolvidable.</p>',
-    handle: 'especias-marrakech',
-    productType: 'Oriental',
+    title: 'Oud Kamini',
+    description: 'Oud camboyano ahumado, rosa negra de Taif, resina de styrax. La materia prima antes de que la perfumería la domesticara. Cruda, densa, sin disculpas.',
+    descriptionHtml: '<p>Oud camboyano ahumado, rosa negra de Taif, resina de styrax. La materia prima antes de que la perfumería la domesticara. Cruda, densa, sin disculpas.</p>',
+    handle: 'oud-kamini',
+    productType: 'Oud & Especias',
     options: [
       { id: 'size', name: 'Tamaño', values: ['30ml', '50ml', '100ml'] }
     ],
     images: {
       edges: [
-        { node: { url: 'https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800&h=800&fit=crop', altText: 'Especias de Marrakech Perfume' } },
-        { node: { url: 'https://images.unsplash.com/photo-1615634260167-c8cdede054de?w=800&h=800&fit=crop', altText: 'Especias de Marrakech Detalle' } },
+        { node: { url: '/perfumes/tron-le-UMTh7DFMx6s-unsplash.jpg', altText: 'Oud Kamini' } },
+        { node: { url: '/perfumes/beautinow-niche-perfume-Oi9vbSj6mCU-unsplash.jpg', altText: 'Oud Kamini Detalle' } },
       ]
     },
-    priceRange: { minVariantPrice: { amount: '165.00', currencyCode: 'USD' } },
+    priceRange: { minVariantPrice: { amount: '245.00', currencyCode: 'USD' } },
     compareAtPriceRange: { minVariantPrice: { amount: '0', currencyCode: 'USD' } },
     variants: {
       edges: [
-        { node: { id: 'variant-8-1', title: '30ml', price: { amount: '165.00', currencyCode: 'USD' }, availableForSale: true, selectedOptions: [{ name: 'Tamaño', value: '30ml' }] } },
-        { node: { id: 'variant-8-2', title: '50ml', price: { amount: '225.00', currencyCode: 'USD' }, availableForSale: true, selectedOptions: [{ name: 'Tamaño', value: '50ml' }] } },
-        { node: { id: 'variant-8-3', title: '100ml', price: { amount: '315.00', currencyCode: 'USD' }, availableForSale: true, selectedOptions: [{ name: 'Tamaño', value: '100ml' }] } },
+        { node: { id: 'variant-8-1', title: '30ml', price: { amount: '245.00', currencyCode: 'USD' }, availableForSale: true, selectedOptions: [{ name: 'Tamaño', value: '30ml' }] } },
+        { node: { id: 'variant-8-2', title: '50ml', price: { amount: '345.00', currencyCode: 'USD' }, availableForSale: true, selectedOptions: [{ name: 'Tamaño', value: '50ml' }] } },
+        { node: { id: 'variant-8-3', title: '100ml', price: { amount: '480.00', currencyCode: 'USD' }, availableForSale: true, selectedOptions: [{ name: 'Tamaño', value: '100ml' }] } },
       ]
     }
   },
   {
     id: 'product-9',
-    title: 'Lavanda Provenzal',
-    description: 'Los campos de lavanda de la Provenza francesa en una fragancia relajante. Lavanda silvestre, romero, salvia y un fondo de musgo de roble.',
-    descriptionHtml: '<p>Los campos de lavanda de la Provenza francesa en una fragancia relajante. Lavanda silvestre, romero, salvia y un fondo de musgo de roble.</p>',
-    handle: 'lavanda-provenzal',
-    productType: 'Floral',
+    title: 'Labdanum / Cistus',
+    description: 'Labdanum puro, cistus, ámbar gris, musgo de roble. El olor del Mediterráneo antes del turismo. Antiguo, terroso, sin artificios.',
+    descriptionHtml: '<p>Labdanum puro, cistus, ámbar gris, musgo de roble. El olor del Mediterráneo antes del turismo. Antiguo, terroso, sin artificios.</p>',
+    handle: 'labdanum-cistus',
+    productType: 'Resinas & Bálsamos',
     options: [
       { id: 'size', name: 'Tamaño', values: ['30ml', '50ml', '100ml'] }
     ],
     images: {
       edges: [
-        { node: { url: 'https://images.unsplash.com/photo-1595425970377-c9703cf48b6d?w=800&h=800&fit=crop', altText: 'Lavanda Provenzal Perfume' } },
-        { node: { url: 'https://images.unsplash.com/photo-1590736969955-71cc94901144?w=800&h=800&fit=crop', altText: 'Lavanda Provenzal Detalle' } },
+        { node: { url: '/perfumes/tron-le-5JFX82Pk5-I-unsplash.jpg', altText: 'Labdanum Cistus' } },
+        { node: { url: '/perfumes/tron-le-UNo5_hVWe9E-unsplash.jpg', altText: 'Labdanum Cistus Detalle' } },
       ]
     },
-    priceRange: { minVariantPrice: { amount: '79.00', currencyCode: 'USD' } },
+    priceRange: { minVariantPrice: { amount: '135.00', currencyCode: 'USD' } },
     compareAtPriceRange: { minVariantPrice: { amount: '0', currencyCode: 'USD' } },
     variants: {
       edges: [
-        { node: { id: 'variant-9-1', title: '30ml', price: { amount: '79.00', currencyCode: 'USD' }, availableForSale: true, selectedOptions: [{ name: 'Tamaño', value: '30ml' }] } },
-        { node: { id: 'variant-9-2', title: '50ml', price: { amount: '119.00', currencyCode: 'USD' }, availableForSale: true, selectedOptions: [{ name: 'Tamaño', value: '50ml' }] } },
-        { node: { id: 'variant-9-3', title: '100ml', price: { amount: '169.00', currencyCode: 'USD' }, availableForSale: true, selectedOptions: [{ name: 'Tamaño', value: '100ml' }] } },
+        { node: { id: 'variant-9-1', title: '30ml', price: { amount: '135.00', currencyCode: 'USD' }, availableForSale: true, selectedOptions: [{ name: 'Tamaño', value: '30ml' }] } },
+        { node: { id: 'variant-9-2', title: '50ml', price: { amount: '189.00', currencyCode: 'USD' }, availableForSale: true, selectedOptions: [{ name: 'Tamaño', value: '50ml' }] } },
+        { node: { id: 'variant-9-3', title: '100ml', price: { amount: '265.00', currencyCode: 'USD' }, availableForSale: true, selectedOptions: [{ name: 'Tamaño', value: '100ml' }] } },
       ]
     }
   },
   {
     id: 'product-10',
-    title: 'Vetiver Intenso',
-    description: 'La tierra húmeda después de la lluvia. Vetiver haitiano, raíz de iris, madera de gaiac y un toque ahumado de incienso para una fragancia terrosa y elegante.',
-    descriptionHtml: '<p>La tierra húmeda después de la lluvia. Vetiver haitiano, raíz de iris, madera de gaiac y un toque ahumado de incienso para una fragancia terrosa y elegante.</p>',
-    handle: 'vetiver-intenso',
-    productType: 'Amaderado',
+    title: 'Gaiac Ahumado',
+    description: 'Madera de gaiac quemada, vetiver carbonizado, pimienta negra. Lo que queda después del fuego. Una fragancia para quienes ya no necesitan llamar la atención.',
+    descriptionHtml: '<p>Madera de gaiac quemada, vetiver carbonizado, pimienta negra. Lo que queda después del fuego. Una fragancia para quienes ya no necesitan llamar la atención.</p>',
+    handle: 'gaiac-ahumado',
+    productType: 'Cuero & Humo',
     options: [
       { id: 'size', name: 'Tamaño', values: ['30ml', '50ml', '100ml'] }
     ],
     images: {
       edges: [
-        { node: { url: 'https://images.unsplash.com/photo-1619994403073-2cec844b8e63?w=800&h=800&fit=crop', altText: 'Vetiver Intenso Perfume' } },
-        { node: { url: 'https://images.unsplash.com/photo-1608528577891-eb055944f2e7?w=800&h=800&fit=crop', altText: 'Vetiver Intenso Detalle' } },
+        { node: { url: '/perfumes/chenbushi-Dxgp0wVQbLU-unsplash.jpg', altText: 'Gaiac Ahumado' } },
+        { node: { url: '/perfumes/mahbod-akhzami-ao17WB4tCTQ-unsplash.jpg', altText: 'Gaiac Ahumado Detalle' } },
       ]
     },
-    priceRange: { minVariantPrice: { amount: '145.00', currencyCode: 'USD' } },
-    compareAtPriceRange: { minVariantPrice: { amount: '175.00', currencyCode: 'USD' } },
+    priceRange: { minVariantPrice: { amount: '155.00', currencyCode: 'USD' } },
+    compareAtPriceRange: { minVariantPrice: { amount: '185.00', currencyCode: 'USD' } },
     variants: {
       edges: [
-        { node: { id: 'variant-10-1', title: '30ml', price: { amount: '145.00', currencyCode: 'USD' }, availableForSale: true, selectedOptions: [{ name: 'Tamaño', value: '30ml' }] } },
-        { node: { id: 'variant-10-2', title: '50ml', price: { amount: '195.00', currencyCode: 'USD' }, availableForSale: true, selectedOptions: [{ name: 'Tamaño', value: '50ml' }] } },
-        { node: { id: 'variant-10-3', title: '100ml', price: { amount: '275.00', currencyCode: 'USD' }, availableForSale: true, selectedOptions: [{ name: 'Tamaño', value: '100ml' }] } },
+        { node: { id: 'variant-10-1', title: '30ml', price: { amount: '155.00', currencyCode: 'USD' }, availableForSale: true, selectedOptions: [{ name: 'Tamaño', value: '30ml' }] } },
+        { node: { id: 'variant-10-2', title: '50ml', price: { amount: '215.00', currencyCode: 'USD' }, availableForSale: true, selectedOptions: [{ name: 'Tamaño', value: '50ml' }] } },
+        { node: { id: 'variant-10-3', title: '100ml', price: { amount: '299.00', currencyCode: 'USD' }, availableForSale: true, selectedOptions: [{ name: 'Tamaño', value: '100ml' }] } },
       ]
     }
   },
   {
     id: 'product-11',
-    title: 'Mandarina Siciliana',
-    description: 'Sol y vitalidad del Mediterráneo. Mandarina de Sicilia, neroli, petit grain y un fondo de almizcle blanco para una fragancia luminosa y optimista.',
-    descriptionHtml: '<p>Sol y vitalidad del Mediterráneo. Mandarina de Sicilia, neroli, petit grain y un fondo de almizcle blanco para una fragancia luminosa y optimista.</p>',
-    handle: 'mandarina-siciliana',
-    productType: 'Cítrico',
+    title: 'Iris / Polvo',
+    description: 'Raíz de iris en bruto, polvo de violeta, suelo seco. Fría como mármol en la apertura, terrosa al final. Una fragancia que no intenta agradar a nadie.',
+    descriptionHtml: '<p>Raíz de iris en bruto, polvo de violeta, suelo seco. Fría como mármol en la apertura, terrosa al final. Una fragancia que no intenta agradar a nadie.</p>',
+    handle: 'iris-polvo',
+    productType: 'Raíces & Tierra',
     options: [
       { id: 'size', name: 'Tamaño', values: ['30ml', '50ml', '100ml'] }
     ],
     images: {
       edges: [
-        { node: { url: 'https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800&h=800&fit=crop', altText: 'Mandarina Siciliana Perfume' } },
-        { node: { url: 'https://images.unsplash.com/photo-1541643600914-78b084683601?w=800&h=800&fit=crop', altText: 'Mandarina Siciliana Detalle' } },
+        { node: { url: '/perfumes/sonia-dauer-eTMMCz6JI6s-unsplash.jpg', altText: 'Iris Polvo' } },
+        { node: { url: '/perfumes/cosmin-ursea-WzP_9jJ16gQ-unsplash.jpg', altText: 'Iris Polvo Detalle' } },
       ]
     },
-    priceRange: { minVariantPrice: { amount: '69.00', currencyCode: 'USD' } },
+    priceRange: { minVariantPrice: { amount: '105.00', currencyCode: 'USD' } },
     compareAtPriceRange: { minVariantPrice: { amount: '0', currencyCode: 'USD' } },
     variants: {
       edges: [
-        { node: { id: 'variant-11-1', title: '30ml', price: { amount: '69.00', currencyCode: 'USD' }, availableForSale: true, selectedOptions: [{ name: 'Tamaño', value: '30ml' }] } },
-        { node: { id: 'variant-11-2', title: '50ml', price: { amount: '99.00', currencyCode: 'USD' }, availableForSale: true, selectedOptions: [{ name: 'Tamaño', value: '50ml' }] } },
-        { node: { id: 'variant-11-3', title: '100ml', price: { amount: '149.00', currencyCode: 'USD' }, availableForSale: true, selectedOptions: [{ name: 'Tamaño', value: '100ml' }] } },
+        { node: { id: 'variant-11-1', title: '30ml', price: { amount: '105.00', currencyCode: 'USD' }, availableForSale: true, selectedOptions: [{ name: 'Tamaño', value: '30ml' }] } },
+        { node: { id: 'variant-11-2', title: '50ml', price: { amount: '149.00', currencyCode: 'USD' }, availableForSale: true, selectedOptions: [{ name: 'Tamaño', value: '50ml' }] } },
+        { node: { id: 'variant-11-3', title: '100ml', price: { amount: '209.00', currencyCode: 'USD' }, availableForSale: true, selectedOptions: [{ name: 'Tamaño', value: '100ml' }] } },
       ]
     }
   },
   {
     id: 'product-12',
-    title: 'Oud Majestuoso',
-    description: 'La esencia de la realeza oriental. Oud camboyano, rosa de Taif, azafrán iraní y ámbar gris en una fragancia opulenta y majestuosa.',
-    descriptionHtml: '<p>La esencia de la realeza oriental. Oud camboyano, rosa de Taif, azafrán iraní y ámbar gris en una fragancia opulenta y majestuosa.</p>',
-    handle: 'oud-majestuoso',
-    productType: 'Oriental',
+    title: 'Encens Noir',
+    description: 'Incienso somalí, resina de elemi, pimienta de Sichuan, oud negro. La iglesia vacía a las tres de la mañana. No es para todo el mundo. Está bien así.',
+    descriptionHtml: '<p>Incienso somalí, resina de elemi, pimienta de Sichuan, oud negro. La iglesia vacía a las tres de la mañana. No es para todo el mundo. Está bien así.</p>',
+    handle: 'encens-noir',
+    productType: 'Oud & Especias',
     options: [
       { id: 'size', name: 'Tamaño', values: ['30ml', '50ml', '100ml'] }
     ],
     images: {
       edges: [
-        { node: { url: 'https://images.unsplash.com/photo-1587017539504-67cfbddac569?w=800&h=800&fit=crop', altText: 'Oud Majestuoso Perfume' } },
-        { node: { url: 'https://images.unsplash.com/photo-1523293182086-7651a899d37f?w=800&h=800&fit=crop', altText: 'Oud Majestuoso Detalle' } },
+        { node: { url: '/perfumes/pavlo-talpa-SIKp2vihB_s-unsplash.jpg', altText: 'Encens Noir' } },
+        { node: { url: '/perfumes/beautinow-niche-perfume-Oi9vbSj6mCU-unsplash.jpg', altText: 'Encens Noir Detalle' } },
       ]
     },
     priceRange: { minVariantPrice: { amount: '295.00', currencyCode: 'USD' } },

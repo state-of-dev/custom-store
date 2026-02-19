@@ -161,10 +161,10 @@ export async function getCollectionProducts({
 
   // Filtrar por tipo de producto basado en la colección
   const collectionTypeMap: Record<string, string> = {
-    'florales': 'Floral',
-    'amaderadas': 'Amaderado',
-    'citricas': 'Cítrico',
-    'orientales': 'Oriental',
+    'florales': 'Resinas & Bálsamos',
+    'amaderadas': 'Cuero & Humo',
+    'citricas': 'Raíces & Tierra',
+    'orientales': 'Oud & Especias',
   }
 
   if (collection !== 'frontpage' && collectionTypeMap[collection]) {
