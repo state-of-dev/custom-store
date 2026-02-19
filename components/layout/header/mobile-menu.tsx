@@ -103,9 +103,9 @@ export default function MobileMenu({ collections }: MobileMenuProps) {
                 <div className="mt-auto mb-6 text-sm leading-tight opacity-50">
                   {/* <p className="italic">Refinado. Minimalista. Nunca aburrido.</p> */}
                   <div className="mt-5">
-                    <p>Muebles que hablan suavemente, pero destacan con fuerza.</p>
+                    {/* <p>Muebles que hablan suavemente, pero destacan con fuerza.</p>
                     <p>Líneas limpias, elaboradas con ingenio.</p>
-                    <p>Elegancia con un guiño — el estilo primero</p>
+                    <p>Elegancia con un guiño — el estilo primero</p> */}
                   </div>
                 </div>
                 <SidebarLinks className="gap-2 w-full" />
