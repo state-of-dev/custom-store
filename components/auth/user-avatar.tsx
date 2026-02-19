@@ -59,7 +59,7 @@ export function UserAvatar() {
   // Usuario autenticado - mostrar avatar con iniciales
   return (
     <div className="group relative">
-      <button className="flex h-9 w-9 items-center justify-center rounded-full border bg-primary text-primary-foreground hover:bg-primary/90 transition-colors">
+      <button className="flex h-9 w-9 items-center justify-center rounded-full bg-primary text-primary-foreground hover:bg-primary/90 transition-colors">
         <span className="text-xs font-semibold">
           {getInitials(session.user.name, session.user.email)}
         </span>
